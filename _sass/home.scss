@@ -1,0 +1,204 @@
+// This is a partial.
+// It lies in <source>/_sass, just waiting to be imported.
+// It does not contain the YAML front matter and has no corresponding output file in the built site.
+
+/**
+* Home - Custom Styles
+*/
+
+.home {
+	padding-top: 150px;
+	padding-bottom: 100px;
+}
+
+.home-text {
+	font-family: 'Podkova', serif;
+	font-size: 2rem;
+	font-weight: 400;
+	max-width: 535px;
+	min-width: 290px;
+    margin: 0 auto;
+    //padding-top: 150px;
+    //padding-bottom: 100px;
+    color: #003049; //black blue
+    line-height: 2.25rem;
+    letter-spacing: .1rem;
+}
+
+.brackets { 
+	color: #E3D15D !important;
+	font-size: 2.33rem;
+	font-style: italic;
+	letter-spacing: .25rem;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
+	}
+
+.hi {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 7.35rem;
+	color: #333;
+	line-height: 11rem;
+	font-weight: 600;
+	display: block;
+	padding-bottom: 15px;
+}
+
+p.home-text a {
+	//color: #333 !important;
+	//border-bottom: 1px solid #333;
+	//font-weight: 700;
+	text-decoration: none !important;
+	color: #4991ac !important; // dark ocean blue
+}
+
+a.contact:hover {
+	font-weight: 700;
+}
+
+p.home-text a:visited {
+	color: #aaa;
+}
+
+button.contact {
+	font-family: 'Podkova', serif;
+	font-size: 2rem;
+	font-weight: 400;
+	max-width: 535px;
+	margin: 0 auto;
+	color: #4991ac;
+	border: none;
+	background: transparent;
+	padding: 0;
+	}
+
+//text manipulation
+// Scott Kilts / About
+#about {
+  display: none;
+  width: 100%;
+  text-align: center;
+  padding: auto;
+  //border: 1px solid;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+input[type="text"]{
+    text-shadow: 0 0 0 #000;
+    cursor: pointer;
+    outline: 0;
+    font-family: 'Podkova', serif;
+	font-size: 2rem;
+	font-weight: 400;
+    margin: 0 auto;
+    padding: 0;
+    max-width: 80px;
+    border: transparent;
+    color: #4991ac !important;
+    letter-spacing: .1rem;
+}
+input[type="text"]:focus{
+    outline: none;
+}
+input[type="text"]:hover{
+	-webkit-transform: scale(0.95) rotateZ(-1deg);
+	-ms-transform: scale(0.95) rotateZ(-1deg);
+	transform: scale(0.95) rotateZ(-1deg);
+	transform-duration: 0.3s;
+}
+input:focus + span#about {
+  	display: block;
+  	}
+
+//artist / lettering, watercolor
+#artist {
+  display: none;
+  width: 100%;
+  text-align: center;
+  padding: auto;
+  //border: 1px solid;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.artist {
+	max-width: 161px !important;
+	display: inline
+}
+input:focus + span#artist {
+  	display: inline;
+}
+
+//designer / human computer interaction
+#designer {
+  display: none;
+  width: 100%;
+  text-align: center;
+  padding: auto;
+  //border: 1px solid;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.designer {
+	max-width: 138px !important;
+	display: inline
+}
+input:focus + span#designer {
+  	display: inline;
+}
+
+//build / ux
+#build {
+  display: none;
+  width: 100%;
+  text-align: center;
+  padding: auto;
+  //border: 1px solid;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.build {
+	max-width: 277px !important;
+	display: inline
+}
+input:focus + span#build {
+  	display: inline;
+}
+
+//work / behance - github
+#work {
+  display: none;
+  width: 100%;
+  text-align: center;
+  padding: auto;
+  //border: 1px solid;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.work {
+	max-width: 70px !important;
+	display: inline
+}
+input:focus + span#work {
+  	display: inline;
+}
+
+//chat / contact window
+#contact {
+  display: none;
+  width: 100%;
+  text-align: center;
+  padding: auto;
+  //border: 1px solid;
+  margin-top: 25px;
+  //margin-bottom: 25px;
+}
+.contact {
+	max-width: 65px !important;
+	display: inline;
+}
+input:focus + span#contact {
+  	display: inline;
+}
+
+// /text manipulation

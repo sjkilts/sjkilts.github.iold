@@ -1,0 +1,71 @@
+// This is a partial.
+// It lies in <source>/_sass, just waiting to be imported.
+// It does not contain the YAML front matter and has no corresponding output file in the built site.
+
+
+.site-footer {
+	border-top: 0 !important;
+}
+
+img.logo {
+	display: block;
+	margin: 0 auto;
+	padding-bottom: 30px;
+	height: 150px;
+}
+
+ul.contact {
+    text-align: center;
+    list-style-type: none;
+    margin-left: 0px;
+    padding-top: 40px;
+}
+
+.site-footer a {
+	//color: #FF69B4; //hot pink
+	color: #dc0095 !important; //fuchsia
+}
+
+.links {
+	text-align: center;
+	padding-bottom: 65px;
+	margin: 0 auto;
+}
+.links li {
+	display: inline;  
+	text-align: center;
+	padding-left: 15px;
+	padding-right: 15px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 1.33rem;
+	font-weight: 300;
+	letter-spacing: .066rem;
+}
+
+.links li a:hover {
+	font-weight: 400;
+	text-decoration: none;
+}
+
+.footer-email {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 1.66rem;
+	font-weight: 400;
+	padding-top: 25px;
+	padding-bottom: 100px;
+	letter-spacing: .096rem;
+	text-align: center;
+}
+
+.footer-email a:hover {
+	//font-weight: 400;
+	text-decoration: none;
+}
+
+div.wrapper {
+	margin: 0 auto;
+}
+
+div.footer-wrapper {
+	margin: 0 auto;
+}
