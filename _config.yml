@@ -37,6 +37,6 @@ exclude:
 include: ["_pages"]
 permalink: /:title/
 sass: 
-  sass_dir: ./_sass
+  sass_dir: _sass
   style: compressed
 repository: sjkilts/sjkilts.github.io
