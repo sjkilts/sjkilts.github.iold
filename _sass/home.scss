@@ -44,6 +44,11 @@
 	padding-bottom: 15px;
 }
 
+input[type="text"] {
+	text-shadow: 0 0 0 #4991ac;
+	color: transparent !important;
+}
+
 p.home-text a {
 	//color: #333 !important;
 	//border-bottom: 1px solid #333;
@@ -85,7 +90,7 @@ button.contact {
 }
 
 input[type="text"]{
-    text-shadow: 0 0 0 #000;
+    //text-shadow: 0 0 0 #000;
     cursor: pointer;
     outline: 0;
     font-family: 'Podkova', serif;
@@ -95,7 +100,7 @@ input[type="text"]{
     padding: 0;
     max-width: 80px;
     border: transparent;
-    color: #4991ac !important;
+    //color: #4991ac !important;
     letter-spacing: .1rem;
 }
 input[type="text"]:focus{
