@@ -44,11 +44,6 @@
 	padding-bottom: 15px;
 }
 
-input[type="text"] {
-	text-shadow: 0 0 0 #4991ac;
-	color: transparent !important;
-}
-
 p.home-text a {
 	//color: #333 !important;
 	//border-bottom: 1px solid #333;
@@ -102,6 +97,9 @@ input[type="text"]{
     border: transparent;
     //color: #4991ac !important;
     letter-spacing: .1rem;
+    text-shadow: 0 0 0 #4991ac;
+	color: transparent !important;
+
 }
 input[type="text"]:focus{
     outline: none;
