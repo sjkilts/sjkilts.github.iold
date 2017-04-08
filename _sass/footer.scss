@@ -62,10 +62,27 @@ ul.contact {
 	text-decoration: none;
 }
 
+.footer-email #at {
+	font-weight: 300;
+	font-style: italic;
+	display: inline-block;
+}
+
 div.wrapper {
 	margin: 0 auto;
 }
 
 div.footer-wrapper {
 	margin: 0 auto;
+}
+
+@media screen and (max-width: 360px) {
+	.links li {
+		display: block;
+		padding: 5px;
+	}
+
+	.footer-email {
+		font-size: 1.5rem;
+	}
 }

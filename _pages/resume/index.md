@@ -1,5 +1,5 @@
 ---
-permalink: "/portfolio/"
+permalink: "/resume/"
 layout: homePage
 ---
 <div class="home">

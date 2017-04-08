@@ -1,5 +1,5 @@
 ---
-permalink: "/portfolio/"
+permalink: "/artwork/"
 layout: homePage
 ---
 <div class="home">
