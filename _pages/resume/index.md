@@ -1,5 +1,6 @@
 ---
 permalink: "/resume/"
+title: Scott Kilts - Resume
 layout: infoPage
 ---
 
