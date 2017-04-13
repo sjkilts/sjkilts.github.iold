@@ -1,48 +1,34 @@
 ---
 permalink: "/resume/"
-layout: homePage
+layout: infoPage
 ---
-<!-- <div class="home">
-	<p class="hi" style="line-height: 5rem !important;">coming soon</p>
-</div>
-
-// Resume.md 
-
-<style>
-.wrapper {
-	padding-top: 350px;
-}
-
-</style> -->
-
-{% include header-nav.html %}
 
 # Employment
 
-- **Hosting Puget Sound** Job Title *(2016-2017)*
+- **Hosting Puget Sound** Web Host Manager *(2016-2017)*    
 Manage and maintain up to 60 client websites.
 Responsible for updates, troubleshooting, technical support, site security and content modifications. Created and enacted a business plan to increase clients and overall revenue.
 
-- **M Agency** Designer / Developer *(2016-2017)*
+- **M Agency** Designer / Developer *(2016-2017)*  
 Using a combination of management, design and development skills to manage projects, market and promote client businesses through web and print media. Create brand identities, assets, illustrations & user interface designs. Build out sites, optimizing usability and rankings through research & SEO.
 
-- **Apache Pine** Job Title *(2014-2016)*
+- **Apache Pine** Design Director *(2014-2016)*  
 Responsible for visual design, web development, and marketing materials for an eCommerce site. 
 Management of projects and programs including collaboration with remote team members.  Additional responsibilities include product design, print design branding and logos. 
 
 
-- **Scott Kilts Design** Job Title *(2014-Present)*
+- **Scott Kilts Design** Owner / Operator *(2014-Present)*  
 Manage and maintain up to 60 client websites.
 Responsible for updates, troubleshooting, technical support, site security and content modifications. Created and enacted a business plan to increase clients and overall revenue.
 
-- **Apple Inc.** Job Title *(2013-2014)*
+- **Apple Inc.** CPU Advisor *(2013-2014)*  
 Friendly voice of Apple, providing troubleshooting, creative technical solutions, and support. 
 Strong ability to match responses and communication styles to customer needs, ensuring complete and personal customer service. Responsible to work independent from management and co-workers while effectively prioritizing and managing time. 
 
 # Education
 
-**Computer Science BS** University of Utah *(In Progress)*
-**Human Factors Certificate** University of Utah *(2011-2012)*
+**Computer Science BS** University of Utah *(In Progress)*  
+**Human Factors Certificate** University of Utah *(2011-2012)*  
 **Associate of Arts & Science** Weber State University *(2009-2011)*
 
 # Skills
