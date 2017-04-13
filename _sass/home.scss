@@ -91,6 +91,11 @@ a#contact-email:active {
 	color: $yellow !important;
 }
 
+a#contact-email i {
+	font-weight: 300;
+	font-style: italic;
+}
+
 /*#helloemail {
 	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: 600;
