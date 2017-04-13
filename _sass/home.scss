@@ -6,7 +6,7 @@
 * Home - Custom Styles
 */
 
-.home {
+.wrapper {
 	padding-top: 150px;
 	padding-bottom: 100px;
 }
@@ -76,7 +76,7 @@ button.contact {
 	color: $ltBlue !important; 
 }
 
-#contact-email {
+a#contact-email {
 	//text styles
 	color: $ltBlue;
 	font-family: 'Source Sans Pro', sans-serif;
@@ -87,11 +87,11 @@ button.contact {
 	box-shadow: 0 .05em 00 currentColor;
 }
 
-#contact-email:active {
+a#contact-email:active {
 	color: $yellow !important;
 }
 
-#contact-email i {
+a#contact-email i {
 	font-weight: 300;
 	font-style: italic;
 }
