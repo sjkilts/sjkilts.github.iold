@@ -6,8 +6,8 @@ layout: infoPage
 # Employment
 
 - **Hosting Puget Sound** Web Host Manager *(2016-2017)*    
-Manage and maintain up to 60 client websites.
-Responsible for updates, troubleshooting, technical support, site security and content modifications. Created and enacted a business plan to increase clients and overall revenue.
+Support, update, manage and maintain up to 60 wordpress websites.
+Created and enacted a business plan to increase clients and overall revenue.
 
 - **M Agency** Designer / Developer *(2016-2017)*  
 Using a combination of management, design and development skills to manage projects, market and promote client businesses through web and print media. Create brand identities, assets, illustrations & user interface designs. Build out sites, optimizing usability and rankings through research & SEO.
