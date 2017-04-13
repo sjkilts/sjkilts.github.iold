@@ -76,7 +76,7 @@ button.contact {
 	color: $ltBlue !important; 
 }
 
-a#contact-email {
+#contact-email {
 	//text styles
 	color: $ltBlue;
 	font-family: 'Source Sans Pro', sans-serif;
@@ -87,11 +87,11 @@ a#contact-email {
 	box-shadow: 0 .05em 00 currentColor;
 }
 
-a#contact-email:active {
+#contact-email:active {
 	color: $yellow !important;
 }
 
-a#contact-email i {
+#contact-email i {
 	font-weight: 300;
 	font-style: italic;
 }
