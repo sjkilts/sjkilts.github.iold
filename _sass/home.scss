@@ -20,13 +20,13 @@
     margin: 0 auto;
     //padding-top: 150px;
     //padding-bottom: 100px;
-    color: #003049; //black blue
+    color: $dkBlue; //black blue
     line-height: 2.25rem;
     letter-spacing: .1rem;
 }
 
 .brackets { 
-	color: #E3D15D !important;
+	color: $yellow !important;
 	font-size: 2.33rem;
 	font-style: italic;
 	letter-spacing: .25rem;
@@ -37,7 +37,7 @@
 .hi {
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 7.35rem;
-	color: #333;
+	color: $text;
 	line-height: 11rem;
 	font-weight: 600;
 	display: block;
@@ -49,7 +49,7 @@ p.home-text a {
 	//border-bottom: 1px solid #333;
 	//font-weight: 700;
 	text-decoration: none !important;
-	color: #4991ac !important; // dark ocean blue
+	color: $ltBlue !important; 
 }
 
 a.contact:hover {
@@ -66,14 +66,29 @@ button.contact {
 	font-weight: 400;
 	max-width: 535px;
 	margin: 0 auto;
-	color: #4991ac;
+	color: $ltBlue;
 	border: none;
 	background: transparent;
 	padding: 0;
 	}
 
 #highlight {
-	color: #4991ac !important; // dark ocean blue
+	color: $ltBlue !important; 
+}
+
+a#contact-email {
+	//text styles
+	color: $ltBlue;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
+	letter-spacing: 0.096rem;
+	//underline email address
+	text-decoration: none;
+	box-shadow: 0 .05em 00 currentColor;
+}
+
+a#contact-email:active {
+	color: $yellow !important;
 }
 
 /*#helloemail {
@@ -115,7 +130,7 @@ input[type="text"]{
     border: transparent;
     //color: #4991ac !important;
     letter-spacing: .1rem;
-    text-shadow: 0 0 0 #4991ac;
+    text-shadow: 0 0 0 $ltBlue;
 	color: transparent !important;
 
 }
