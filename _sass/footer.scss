@@ -3,15 +3,53 @@
 // It does not contain the YAML front matter and has no corresponding output file in the built site.
 
 
-.site-footer {
+footer.site-footer {
 	border-top: 0 !important;
+
+	& a {
+		color: $fuchsia !important;
+	}
+
+	& img {
+		display: block;
+		margin: 0 auto;
+		padding-bottom: 30px;
+		height: 150px;
+	}
+
+	& div.wrapper {
+		margin: 0 auto;
+	}
+
+	& div.footer-wrapper {
+		margin: 0 auto;
+	}
 }
 
-img.logo {
-	display: block;
+ul.links {
+	text-align: center;
+	padding-bottom: 65px;
 	margin: 0 auto;
-	padding-bottom: 30px;
-	height: 150px;
+
+	& li {
+		display: inline;  
+		text-align: center;
+		padding-left: 15px;
+		padding-right: 15px;
+		font-family: 'Source Sans Pro', sans-serif;
+		font-size: 1.33rem;
+		font-weight: 300;
+		letter-spacing: .066rem;
+
+		& .is-active { // not sure why this isn't working
+			font-weight: 400;
+		}
+
+		& a:hover {
+			font-weight: 400;
+			text-decoration: none;
+		}
+	}
 }
 
 ul.contact {
@@ -19,70 +57,35 @@ ul.contact {
     list-style-type: none;
     margin-left: 0px;
     padding-top: 40px;
-}
+	
+	& li { //remove .footer-email from markup
+		font-family: 'Source Sans Pro', sans-serif;
+		font-size: 1.66rem;
+		font-weight: 400;
+		padding-top: 25px;
+		padding-bottom: 100px;
+		letter-spacing: .096rem;
+		text-align: center;
 
-.site-footer a {
-	//color: #FF69B4; //hot pink
-	color: $fuchsia !important; //fuchsia
-}
+		& a:hover {
+			text-decoration: none;
+		}
 
-.links {
-	text-align: center;
-	padding-bottom: 65px;
-	margin: 0 auto;
-}
-.links li {
-	display: inline;  
-	text-align: center;
-	padding-left: 15px;
-	padding-right: 15px;
-	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 1.33rem;
-	font-weight: 300;
-	letter-spacing: .066rem;
-}
-
-.links li a:hover {
-	font-weight: 400;
-	text-decoration: none;
-}
-
-.footer-email {
-	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 1.66rem;
-	font-weight: 400;
-	padding-top: 25px;
-	padding-bottom: 100px;
-	letter-spacing: .096rem;
-	text-align: center;
-}
-
-.footer-email a:hover {
-	//font-weight: 400;
-	text-decoration: none;
-}
-
-.footer-email #at {
-	font-weight: 300;
-	font-style: italic;
-	display: inline-block;
-}
-
-div.wrapper {
-	margin: 0 auto;
-}
-
-div.footer-wrapper {
-	margin: 0 auto;
+		& #at {
+			font-weight: 300;
+			font-style: italic;
+			display: inline-block;
+		}
+	}
 }
 
 @media screen and (max-width: 360px) {
-	.links li {
+	ul.links li {
 		display: block;
 		padding: 5px;
 	}
 
-	.footer-email {
+	ul.contact li {
 		font-size: 1.5rem;
 	}
 }

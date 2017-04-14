@@ -1,7 +1,7 @@
 ---
 permalink: "/resume/"
 title: Scott Kilts - Resume
-layout: infoPage
+layout: resume
 ---
 
 # Employment
@@ -16,7 +16,6 @@ Using a combination of management, design and development skills to manage proje
 - **Apache Pine** Design Director *(2014-2016)*  
 Responsible for visual design, web development, and marketing materials for an eCommerce site. 
 Management of projects and programs including collaboration with remote team members.  Additional responsibilities include product design, print design branding and logos. 
-
 
 - **Scott Kilts Design** Owner / Operator *(2014-Present)*  
 Manage and maintain up to 60 client websites.
