@@ -45,9 +45,9 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
-  font: 400 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #111;
-  background-color: #fdfdfd;
+  //font: 400 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  //color: #111;
+  //background-color: #fdfdfd;
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;
   -moz-font-feature-settings: "kern" 1;
@@ -101,7 +101,7 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-  color: #2a7ae2;
+  color: $ltBlue;
   text-decoration: none; }
   a:visited {
     color: #1756a9; }

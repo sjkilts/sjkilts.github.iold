@@ -2,13 +2,11 @@
 layout: homePage
 ---
 
-{{ content }}
-
 <p class="home-text">
 <span class="hi">Hello,<br></span>
 My name is <span id="highlight">Scott</span>.<br>
 <br>
-I'm a <span id="highlight">designer</span> and an <span id="highlight">illustrator</span> with a passion for <span id="highlight">ui/ux</span>.<br>
+I'm a <span id="highlight">designer</span> and an <span id="highlight">illustrator</span> with a passion for <span id="highlight">ui/ux</span>. <span id="resume">(<a href="/resume/" id="resume">resume</a>)</span><br>
 <br>
 <!-- ************************************
 I love {stuff}<!--building <input type="text" value="effective websites" class="build"><span id="build"> <span class="brackets">{</span>using information architecture,  user experience design strategies<span class="brackets">}</span></span> & communication through design - ->.<br>
@@ -20,10 +18,13 @@ I'm good at {other stuff}. <br>
 I'm interested in {more stuff}.<br>
 <br>
 ************************************** -->
-
 I'm available for projects and full-time remote work.<br>
 <br>
-Email me: <a id="contact-email" href="mailto:{{ site.email }}">hello<i>[at]</i>scottkilts.com</a>.<br>
+Let's chat: <span id="contact-email">(<a id="contact-email" href="mailto:{{ site.email }}">hello<i>[at]</i>scottkilts.com</a>)</span>!<br>
 <br>
 Have a great day!
 </p>
+
+
+{{ content }}
+

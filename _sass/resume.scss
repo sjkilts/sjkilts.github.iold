@@ -7,10 +7,11 @@
 		list-style-type: none;
 	
 		& li:before {
-			content: '\2014';
+			content: '//'; //'\2014';
 			position: absolute;
 			margin-left: -20px;
-			padding-top: 11.5px;
+			padding-top: 14.33px;
+			font-size: 1.5rem;
 		}
 
 		& li p {
@@ -19,11 +20,12 @@
 	}
 
 	& h1 {
-		font-family: 'Podkova-SemiBold', serif;
+		font-family: 'Podkova', serif;
 		color: $ltBlue;
 		font-size: 1.75rem;
-		letter-spacing: .1rem;
+		letter-spacing: .15rem;
 		padding: 1.75rem 0;
+		font-weight: 400;
 	}
 
 	& p {

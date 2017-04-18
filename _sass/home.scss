@@ -1,29 +1,120 @@
-// home
-
-/**
-* Home - Custom Styles
-*/
+// home - custom styles
 
 .wrapper {
 	padding-top: 9.5em;
-	padding-bottom: 3em;
+	padding-bottom: 5em;
 }
 
-.home-text {
+p.home-text {
 	font-family: 'Podkova', serif;
 	font-size: 2rem;
 	font-weight: 400;
 	max-width: 535px;
 	min-width: 290px;
-    margin: 0 auto;
-    padding-top: 150px;
-    //padding-bottom: 100px;
-    color: $dkBlue; //black blue
-    line-height: 2.25rem;
-    letter-spacing: .1rem;
+	margin: 0 auto;
+	padding-top: 150px;
+	line-height: 2.25rem;
+	letter-spacing: .1rem;
+	color: $text;
+
+    & span.hi {
+		font-family: 'Source Sans Pro', sans-serif;
+		font-size: 7.35rem;
+		color: $text;
+		line-height: 11rem;
+		font-weight: 600;
+		display: block;
+		padding-bottom: 15px;
+		//box-shadow: 00 .05em 00 currentColor;
+		//border-bottom: 2px solid #111111;
+    }
+
+    // & span#highlight {
+    // 	color: $ltBlue;
+    // 	//color: $ltBlue !important;
+
+    // 	&:hover {
+    // 		color: $text !important;
+    // 	}
+    // }
+
+    & a {
+    	text-decoration: none;
+    	color: $ltBlue;
+    }
+
+    & #contact-email {
+		color: $dkBlue;
+		font-family: 'Source Sans Pro', sans-serif;
+		font-weight: 300;
+		letter-spacing: 0.096rem;
+
+		& a {
+			font-weight: 400;
+			//underline email address
+			text-decoration: none;
+			box-shadow: 0 .05em 00 currentColor;
+			color: $ltBlue;
+
+			&:hover {
+				color: $dkBlue;
+		    	transition: color 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
+			}
+		}
+
+		&:hover {
+			color: $ltBlue;
+	    	transition: color 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
+		}
+
+		&:active {
+			color: $yellow !important; 
+		   	transition: color 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
+		}
+
+		& i {
+			font-weight: 300;
+			font-style: italic;
+		}
+    }
+
+    & #resume {
+    	font-style: italic;
+    	font-family: 'Source Sans Pro', sans-serif;
+    	font-weight: 300;
+    	//font-size: 1.25rem;
+    	//color: $dkBlue;
+
+    	& a {
+			text-decoration: none;
+			box-shadow: 0 .05em 00 currentColor;
+
+	    	&:hover {
+				color: $dkBlue;
+		    	transition: color 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
+	    	}
+	    }
+
+	    &:hover {
+	    	color: $ltBlue;
+	    	transition: color 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
+	    }
+
+    	&:active {
+    		color: $yellow !important;
+	    	transition: color 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
+
+    	}
+    }
 }
 
-.brackets { 
+
+
+
+/* //////////////////////////////////////////////////////////
+// OLD UNUSED CODE
+
+.brackets { // p.hometext span.brackets
 	color: $yellow !important;
 	font-size: 2.33rem;
 	font-style: italic;
@@ -31,24 +122,6 @@
 	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: 400;
 	}
-
-.hi {
-	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 7.35rem;
-	color: $text;
-	line-height: 11rem;
-	font-weight: 600;
-	display: block;
-	padding-bottom: 15px;
-}
-
-p.home-text a {
-	//color: #333 !important;
-	//border-bottom: 1px solid #333;
-	//font-weight: 700;
-	text-decoration: none !important;
-	color: $ltBlue !important; 
-}
 
 a.contact:hover {
 	font-weight: 700;
@@ -70,31 +143,7 @@ button.contact {
 	padding: 0;
 	}
 
-#highlight {
-	color: $ltBlue !important; 
-}
-
-a#contact-email {
-	//text styles
-	color: $ltBlue;
-	font-family: 'Source Sans Pro', sans-serif;
-	font-weight: 400;
-	letter-spacing: 0.096rem;
-	//underline email address
-	text-decoration: none;
-	box-shadow: 0 .05em 00 currentColor;
-}
-
-a#contact-email:active {
-	color: $yellow !important;
-}
-
-a#contact-email i {
-	font-weight: 300;
-	font-style: italic;
-}
-
-/*#helloemail {
+#helloemail {
 	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: 600;
 	//color: #dc0095 !important;
@@ -106,7 +155,7 @@ a#contact-email i {
 	font-weight: 300;
 	font-style: italic;
 	display: inline-block;
-}*/
+}
 
 //text manipulation
 // Scott Kilts / About
@@ -241,3 +290,7 @@ input:focus + span#contact {
 }
 
 // /text manipulation
+
+
+//////////////////////////////////////////////////////
+// */
