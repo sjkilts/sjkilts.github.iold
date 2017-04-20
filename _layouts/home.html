@@ -4,7 +4,23 @@ layout: homePage
 
 <p class="home-text">
 <span class="hi">Hello,<br></span>
-My name is <span id="highlight">Scott</span>.<br>
+<span class="hello">Hi, </span><span class="m">m</span>y name is Scott. <span id="resume">(<a href="/resume/">resume</a>)</span><br>
+<br>
+I'm a designer and an illustrator with a passion for ui/ux who is available for projects and full-time remote work.<br>
+<br>
+Let's chat: <span id="contact-email">(<a id="contact-email" href="mailto:{{ site.email }}">hello<i>[at]</i>scottkilts.com</a>)</span>!<br>
+<br>
+Have a great day!
+</p>
+
+<!-- ********************************************
+< ///////////////////////////////////////////////
+< /// EDITING HOME HTML. ORIGINAL BELOW       ///
+< ///////////////////////////////////////////////
+
+<p class="home-text">
+<span class="hi">Hello,<br></span>
+Hi, my name is <span id="highlight">Scott</span>.<br>
 <br>
 I'm a <span id="highlight">designer</span> and an <span id="highlight">illustrator</span> with a passion for <span id="highlight">ui/ux</span>. <span id="resume">(<a href="/resume/">resume</a>)</span><br>
 <br>
@@ -17,7 +33,7 @@ I'm good at {other stuff}. <br>
 
 I'm interested in {more stuff}.<br>
 <br>
-************************************** -->
+************************************** - ->
 I'm available for projects and full-time remote work.<br>
 <br>
 Let's chat: <span id="contact-email">(<a id="contact-email" href="mailto:{{ site.email }}">hello<i>[at]</i>scottkilts.com</a>)</span>!<br>
@@ -25,6 +41,10 @@ Let's chat: <span id="contact-email">(<a id="contact-email" href="mailto:{{ site
 Have a great day!
 </p>
 
+/////////////////////////////////////////////// >
+/// END ORIGINAL HOME HTML                  /// >
+/////////////////////////////////////////////// >
+********************************************* -->
 
 {{ content }}
 
