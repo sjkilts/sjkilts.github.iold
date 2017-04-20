@@ -1,7 +1,7 @@
 // home - custom styles
 
 .page-content {
-	padding-top: 30vh;//9.5em;
+	padding-top: 5vh;//9.5em;
 	padding-bottom: 5em;
 }
 
@@ -119,6 +119,10 @@ p.home-text {
 
 @media (min-width: 420px) {
 
+	.page-content {
+		padding-top: 10vh !important;
+	}
+
 	p.home-text {
 		padding: 0 .5em;
 
@@ -143,6 +147,10 @@ p.home-text {
 		font-size: 2rem;
 		line-height: 2.25rem;
 		letter-spacing: .1rem;
+
+		.page-content {
+			padding-top: 30vh !important;
+		}
 
 		& span.hi {
 			display: block;
