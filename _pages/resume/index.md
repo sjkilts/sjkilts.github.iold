@@ -32,12 +32,27 @@ Friendly voice of Apple, providing troubleshooting, creative technical solutions
 
 # Skills
 
-Design, Illustration, UI/UX, Branding, Project Management, Strategy. Translating technical ideas into easily-understood concepts.
+Illustration, UI/UX, Design, Project Management, Strategy.  
+Translating technical ideas into easily-understood concepts.
 
 # Tools
 
-Photoshop, Illustrator, InDesign, Sketch, Sublime Text, GitHub, perfecting HTML5, Sass, Bootstrap, Liquid, refining JavaScript, JQuery, learning PHP, Ruby. Strong troubleshooting in both Mac and Windows environments.
+Sketch, Sublime Text, Ai, Id, Ps.  
+HTML5, CSS, JavaScript.  
+JQuery, Sass, Liquid. 
+PHP, Ruby. 
+Github.  
+Strong troubleshooting in both Mac and Windows environments.
 
 # Interests
 
-Skiing, rock climbing, slackline, travelling to do those things, being outside, travelling in general. Typography, design. Creating with ink and watercolor, calligraphy, sign painting. Mountains, waves. Keeping up with the internet. The spirit of adventure!
+Rock climbing, skiing,  
+    slackline. Travel.  
+		Being outdoors.  
+			Design, typography.  
+				Aesthetics, contrast.  
+					Ink and watercolor,  
+						calligraphy, sign painting.  
+							Keeping up with the internet.  
+								Mountains, waves.  
+									The spirit of adventure!
