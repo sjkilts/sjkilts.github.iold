@@ -15,7 +15,12 @@
 		}
 
 		& li p {
-			margin-left: 5px;
+			margin-right: 5px;
+			margin-left: -.00em;
+
+			& em {
+				display: inline-block;
+			}
 		}
 	}
 
@@ -41,5 +46,33 @@
 
 	& strong {
 		font-weight: 400;
+		display: inline-block;
+	}
+
+	& em {
+		display: inline-block;
+	}
+}
+
+@media (min-width: 420px) {
+
+	.resume {
+		& ul {
+			& li p {
+				margin-right: 10px;
+			}
+		}
+	}
+
+}
+
+@media (min-width: $breakpoint-phone) {
+	
+	.resume {
+		& ul {
+			& li p {
+				margin-right: 20px;
+			}
+		}
 	}
 }

@@ -7,14 +7,16 @@ layout: resume
 # Employment
 
 - **Hosting Puget Sound** <!--Web Host Manager--> *(2016-2017)*    
-Support, update, manage and maintain up to 60 wordpress websites.
-Create and enact a business plan which increased revenue and client numbers.
+Manage, update and support client websites.  
+Increased revenue and client numbers.
 
 - **M Agency** <!--Designer / Developer--> *(2016-2017)*  
-Promote client businesses through web and print media. Responsible to create assets, code front-end designs and manage projects including brand identity, websites, content marketing and print media.
+Promote client business using illustration, print and web design.  
+Responsible for ux/ui, seo and full-stack development.
 
 - **Apache Pine** <!--Design Director--> *(2014-2016)*  
-Responsible for visual design, web development, and marketing materials for an eCommerce site. Increased sales by updating branding, website, product designs and one-to-one program. 
+Design, development and marketing for an outdoor brand.  
+Increased sales with updated branding, product designs, ux/ui research and one-to-one program. 
 
 - **Scott Kilts Design** <!--Owner / Operator--> *(2014-Present)*  
 Freelance design, illustration and web development.
