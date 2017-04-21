@@ -23,10 +23,18 @@ ul#header-nav {
 
 	& li.sk {
 		line-height: 2rem;
+		font-family: 'Lora', serif;
+		font-size: 2rem;
+		line-height: 2.25rem;
+		color: $text !important;
 
-		& a:hover {
-			font-weight: 300 !important;
+		& a {
 			color: $text !important;
+
+			&:hover {
+				//font-weight: 300 !important;
+				color: $ltBlue !important;
+			}
 		}
 	}
 }
