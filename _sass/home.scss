@@ -2,7 +2,7 @@
 
 .page-content {
 	padding-top: 10vh;//9.5em;
-	padding-bottom: 5em;
+	padding-bottom: 1em;
 }
 
 p.home-text {
@@ -51,7 +51,7 @@ p.home-text {
 		font-size: 1.6rem;
 
 		& a {
-			font-weight: 400;
+			//font-weight: 400;
 			//underline email address
 			text-decoration: none;
 			//box-shadow: 0 .05em 00 currentColor;
@@ -121,6 +121,7 @@ p.home-text {
 
 	.page-content {
 		padding-top: 12vh !important;
+		padding-bottom: 2.5em;
 	}
 
 	p.home-text {
@@ -142,15 +143,16 @@ p.home-text {
 
 @media (min-width: $breakpoint-phone) {
 
+	.page-content {
+		padding-top: 30vh !important;
+		padding-bottom: 5em;
+	}
+
 	p.home-text {
 		//padding: 0 1em;// 150px;
 		font-size: 2rem;
 		line-height: 2.25rem;
 		letter-spacing: .1rem;
-
-		.page-content {
-			padding-top: 30vh !important;
-		}
 
 		& span.hi {
 			display: block;

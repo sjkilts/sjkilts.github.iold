@@ -11,13 +11,14 @@ footer.site-footer {
 	& img {
 		display: block;
 		margin: 0 auto;
-		padding-bottom: 30px;
+		padding: 25px 0;
 		height: 150px;
 	}
 
 	& div.footer-wrapper {
 		margin: 0 auto;
-		padding-top: 4em;
+		padding-top: 2em;
+		padding-bottom: 75px;
 	
 		& ul.links {
 			text-align: center;
@@ -49,14 +50,13 @@ footer.site-footer {
 		    text-align: center;
 		    list-style-type: none;
 		    margin-left: 0px;
-		    padding-top: 40px;
 			
 			& li { //remove .footer-email from markup
 				font-family: 'Source Sans Pro', sans-serif;
 				font-size: 1.66rem;
 				font-weight: 400;
 				padding-top: 25px;
-				padding-bottom: 100px;
+				padding-bottom: 25px;
 				letter-spacing: .096rem;
 				text-align: center;
 
@@ -81,7 +81,17 @@ footer.site-footer {
 		padding: 5px;
 	}
 
-	ul.contact li {
-		font-size: 1.5rem;
+	ul.contact {
+		& li a {
+			font-size: 1.5rem;
+		}	
+	}
+}
+
+@media (min-width: 420px) {
+	ul.contact {
+		& li a {
+			font-size: 2rem;
+		}
 	}
 }

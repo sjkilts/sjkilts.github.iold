@@ -26,7 +26,6 @@
 @import "artwork";
 
 
-
 // *************************
 // body wrap / color padding
 #body {
@@ -37,7 +36,7 @@
 }
 
 .content-wrapper {
-	background: $softWhite; //soft, almost pink. approachable //#f5f5f5 is cleaner, clinical much more grey/white
+	background: $clinicalWhite; //$softWhite soft, almost pink. approachable //#f5f5f5 is cleaner, clinical much more grey/white
 	//max-width: 900px;
 	margin: 0 auto;
 	display: block;
