@@ -1,7 +1,7 @@
 // home - custom styles
 
 .page-content {
-	padding-top: 10vh;//9.5em;
+	padding-top: 10px;//9.5em;
 	padding-bottom: 1em;
 }
 
@@ -120,7 +120,7 @@ p.home-text {
 @media (min-width: 420px) {
 
 	.page-content {
-		padding-top: 12vh !important;
+		padding-top: 12px !important;
 		padding-bottom: 2.5em;
 	}
 
@@ -144,7 +144,7 @@ p.home-text {
 @media (min-width: $breakpoint-phone) {
 
 	.page-content {
-		padding-top: 30vh !important;
+		padding-top: 30px !important;
 		padding-bottom: 5em;
 	}
 
