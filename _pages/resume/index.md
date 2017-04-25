@@ -4,6 +4,15 @@ title: Scott Kilts - Resume
 layout: resume
 ---
 
+<span class="sk-info">
+	<img class="sk-portrait" style="width: 150px; height: 150px; margin: 20px; background-image: url('/assets/Scott-Kilts.jpg'); background-size: cover; display: block; border-radius: 75px; -webkit-border-radius: 75px; -moz-border-radius: 75px;">   
+	<span class="sk-links">
+		[hello@scottkilts.com]({site.email})  
+		[github.com/sjkilts](https://github.com/sjkilts) 
+	</span> 
+</span>
+
+
 # Employment
 
 - **Hosting Puget Sound** <!--Web Host Manager--> *(2016-2017)*    
