@@ -55,7 +55,7 @@ Strong troubleshooting in both Mac and Windows environments.
 
 # Interests
 
-Rock climbing, skiing,  
+Reading. Climbing, skiing,  
     slackline. Travel.  
 		Being outdoors.  
 			Design, typography.  
