@@ -6,6 +6,9 @@ layout: resume
 
 # Employment
 
+- **Scott Kilts Design** <!--Owner / Operator--> *(2014-Present)*  
+Freelance design, illustration and web development.
+
 - **Hosting Puget Sound** <!--Web Host Manager--> *(2016-2017)*    
 Manage, update and support client websites.  
 Increased revenue and client numbers.
@@ -17,9 +20,6 @@ Responsible for ux/ui, seo and full-stack development.
 - **Apache Pine** <!--Design Director--> *(2014-2016)*  
 Design, development and marketing for an outdoor brand.  
 Increased sales with updated branding, product designs, ux/ui research and one-to-one program. 
-
-- **Scott Kilts Design** <!--Owner / Operator--> *(2014-Present)*  
-Freelance design, illustration and web development.
 
 - **Apple Inc.** <!--CPU Advisor--> *(2013-2014)*  
 Friendly voice of Apple, providing troubleshooting, creative technical solutions, and support. Remotely manage time and projects.
