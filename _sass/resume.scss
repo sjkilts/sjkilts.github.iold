@@ -1,6 +1,35 @@
 // page (mostly just the resume page for now)
 
 .resume {
+	//@include grid-visual;
+
+	& span.sk-info {
+		//@include grid-container;
+		display: block;
+		min-height: 190px;
+	}
+
+	& span.sk-links {
+		//@include grid-column(4);
+	}
+
+	& img.sk-portrait {
+		@include grid-column(4);
+		//margin: 0 auto;
+	}
+
+	& a {
+	  border-bottom: 2px dotted currentColor;
+	  transition: 
+            color 0.3s cubic-bezier(0.215, 0.61, 0.355, 1),
+            border-bottom 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
+	  &:hover {
+	  	color: $text;
+	    transition: 
+            color 0.3s cubic-bezier(0.215, 0.61, 0.355, 1),
+            border-bottom 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
+	  }
+	}
 
 	& ul {
 		margin-left: 30px;
@@ -15,6 +44,7 @@
 		}
 
 		& li p {
+			//@include grid-column(10);
 			margin-right: 5px;
 			margin-left: -.00em;
 
@@ -57,6 +87,14 @@
 @media (min-width: 420px) {
 
 	.resume {
+		& span.sk-links {
+			display: block;
+			padding-top: 2rem;
+			//margin: 0 auto;
+		}
+		& img.sk-portrait {
+			margin-right: 33px;
+		}
 		& ul {
 			& li p {
 				margin-right: 10px;

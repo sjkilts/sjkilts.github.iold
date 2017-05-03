@@ -15,6 +15,11 @@
 .default-neat-grid__a-single-column {
   @include grid-column(1);
 }
+
+$neat-grid: (
+  columns: 12,
+  gutter: 20px,
+);
 // /neat
 
 // import partial .scss stylesheets
@@ -130,12 +135,18 @@ h1, h2, h3, h4, h5, h6 {
  */
 a {
   color: $ltBlue;
-  text-decoration: none; }
+  text-decoration: none;
   a:visited {
     color: #1756a9; }
   a:hover {
-    color: #111;
-    text-decoration: underline; }
+    //color: #111;
+    //text-decoration: underline; 
+    color: $text;
+    transition: 
+            color 0.3s cubic-bezier(0.215, 0.61, 0.355, 1),
+            border-bottom 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+}
 
 /**
  * Blockquotes
