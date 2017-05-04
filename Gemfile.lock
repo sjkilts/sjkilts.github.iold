@@ -9,9 +9,6 @@ GEM
       tzinfo (~> 1.1)
     addressable (2.5.1)
       public_suffix (~> 2.0, >= 2.0.2)
-    bourbon (4.3.3)
-      sass (~> 3.4)
-      thor (~> 0.19)
     coffee-script (2.4.1)
       coffee-script-source
       execjs
@@ -176,9 +173,6 @@ GEM
     minima (2.0.0)
     minitest (5.10.1)
     multipart-post (2.0.0)
-    neat (2.0.0)
-      sass (~> 3.4)
-      thor (~> 0.19)
     net-dns (0.8.0)
     nokogiri (1.7.1)
       mini_portile2 (~> 2.1.0)
@@ -199,7 +193,6 @@ GEM
       faraday (~> 0.8, < 1.0)
     terminal-table (1.7.3)
       unicode-display_width (~> 1.1.1)
-    thor (0.19.4)
     thread_safe (0.3.6)
     typhoeus (0.8.0)
       ethon (>= 0.8.0)
@@ -212,14 +205,8 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bourbon
   github-pages
   html-proofer
-  jekyll-coffeescript
-  jekyll-feed (~> 0.6)
-  json
-  minima (~> 2.0.0)
-  neat
   tzinfo-data
 
 RUBY VERSION
