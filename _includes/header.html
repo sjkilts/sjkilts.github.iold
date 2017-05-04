@@ -1,0 +1,26 @@
+<header class="site-header">
+
+  <div class="wrapper">
+
+    <!-- {{ site.title }} instead of blog -->
+    <a class="page-link logo" href="{{ site.baseurl }}/">scott kilts</a>
+
+    <nav class="site-nav">
+
+      <div class="trigger">
+
+        <ul>
+        
+        {% for page in site.pages %}
+          {% if page.title %}
+          <li><a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+          {% endif %}
+        {% endfor %}
+        </ul>
+
+      </div>
+    </nav>
+
+  </div>
+
+</header>

@@ -1,0 +1,385 @@
+// // home - custom styles
+
+// .page-content {
+// 	padding-top: 10px;//9.5em;
+// 	padding-bottom: 1em;
+// }
+
+// p.home-text {
+// 	font-family: 'Podkova', serif;
+// 	font-size: 1.6rem;
+// 	font-weight: 400;
+// 	max-width: 35rem;//535px;
+// 	min-width: 290px;
+// 	margin: 0 auto;
+// 	line-height: 2.25rem;
+// 	letter-spacing: .075rem;
+// 	color: $text;
+
+//     & span.hi {
+//     	display: none;
+// 		font-family: 'Source Sans Pro', sans-serif;
+// 		font-size: 7.35rem;
+// 		color: $text;
+// 		line-height: 11rem;
+// 		font-weight: 600;
+// 		//display: block;
+// 		padding-bottom: 15px;
+// 		//box-shadow: 00 .05em 00 currentColor;
+// 		//border-bottom: 2px solid #111111;
+//     }
+
+//     // & span#highlight {
+//     // 	color: $ltBlue;
+//     // 	//color: $ltBlue !important;
+
+//     // 	&:hover {
+//     // 		color: $text !important;
+//     // 	}
+//     // }
+
+//     & a {
+//     	text-decoration: none;
+//     	color: $ltBlue;
+//     }
+
+//     & #contact-email {
+// 		color: $text;//$dkBlue;
+// 		font-family: 'Source Sans Pro', sans-serif;
+// 		font-weight: 300;
+// 		letter-spacing: 0.096rem;
+// 		font-size: 1.6rem;
+
+// 		& a {
+// 			//font-weight: 400;
+// 			//underline email address
+// 			text-decoration: none;
+// 			//box-shadow: 0 .05em 00 currentColor;
+// 			border-bottom: 2px dotted currentColor;
+// 			color: $ltBlue;
+
+// 			&:hover {
+// 				color: $text;//$dkBlue;
+// 				//border-bottom: 2px solid currentColor !important;
+// 		    	transition: 
+// 		    		color 0.3s cubic-bezier(0.215, 0.61, 0.355, 1),
+// 		    		border-bottom 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
+// 			}
+// 		}
+
+// 		&:hover {
+// 			color: $ltBlue;
+// 	    	transition: color 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
+// 		}
+
+// 		// &:active {
+// 		// 	color: $yellow !important; 
+// 		//    	transition: color 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
+// 		// }
+
+// 		& i {
+// 			font-weight: 300;
+// 			font-style: italic;
+// 		}
+//     }
+
+//     & #resume {
+//     	//font-style: italic;
+//     	font-family: 'Source Sans Pro', sans-serif;
+//     	font-weight: 300;
+//     	//font-size: 1.25rem;
+//     	color: $text; //$dkBlue;
+// 		font-size: 1.6rem;
+
+//     	& a {
+// 			text-decoration: none;
+// 			font-style: italic;
+// 			//box-shadow: 0 .05em 00 currentColor;
+// 			border-bottom: 2px dotted currentColor;
+
+// 	    	&:hover {
+// 				color: $text;//$dkBlue;
+// 		    	transition: color 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
+// 	    	}
+// 	    }
+
+// 	    &:hover {
+// 	    	color: $ltBlue;
+// 	    	transition: color 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
+// 	    }
+
+//     	// &:active {
+//     	// 	color: $yellow !important;
+// 	    // 	transition: color 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
+
+//     	// }
+//     }
+// }
+
+
+// @media (min-width: 420px) {
+
+// 	.page-content {
+// 		padding-top: 12px !important;
+// 		padding-bottom: 2.5em;
+// 	}
+
+// 	p.home-text {
+// 		padding: 0 .5em;
+
+// 		& span.hi {
+// 			display: none;
+// 			font-size: 8.35rem;
+// 			line-height: 13rem;
+// 		}
+
+// 		& #contact-email, #resume {
+// 			font-size: 1.75rem;
+// 		}
+
+// 	}
+
+// }
+
+// @media (min-width: $breakpoint-phone) {
+
+// 	.page-content {
+// 		padding-top: 30px !important;
+// 		padding-bottom: 5em;
+// 	}
+
+// 	p.home-text {
+// 		//padding: 0 1em;// 150px;
+// 		font-size: 2rem;
+// 		line-height: 2.25rem;
+// 		letter-spacing: .1rem;
+
+// 		& span.hi {
+// 			display: block;
+// 			font-size: 10.35rem;
+// 			line-height: 18rem;			
+// 		}
+
+// 		& span.hello {
+// 			display: none;
+// 		}
+
+// 		& span.m {
+// 			text-transform: uppercase;
+// 		}
+
+// 		& #contact-email, #resume {
+// 			font-size: 2rem;
+// 		}
+// 	}
+
+// 	// #body {
+// 	// 	padding-left: 1rem;
+// 	// 	padding-right: 1rem;
+// 	// }
+
+// }
+
+// @media (min-width: $breakpoint-tablet) {
+
+// 	p.home-text {
+// 		& span.hi {
+
+// 		}
+// 	}
+// 	// #body {
+// 	// 	padding-left: 2rem;
+// 	// 	padding-right: 2rem;
+// 	// }
+
+// }
+
+// @media (min-width: $breakpoint-desktop) {
+
+// }
+
+
+
+// /* //////////////////////////////////////////////////////////
+// // OLD UNUSED CODE
+
+// .brackets { // p.hometext span.brackets
+// 	color: $yellow !important;
+// 	font-size: 2.33rem;
+// 	font-style: italic;
+// 	letter-spacing: .25rem;
+// 	font-family: 'Source Sans Pro', sans-serif;
+// 	font-weight: 400;
+// 	}
+
+// a.contact:hover {
+// 	font-weight: 700;
+// }
+
+// p.home-text a:visited {
+// 	color: #aaa;
+// }
+
+// button.contact {
+// 	font-family: 'Podkova', serif;
+// 	font-size: 2rem;
+// 	font-weight: 400;
+// 	max-width: 535px;
+// 	margin: 0 auto;
+// 	color: $ltBlue;
+// 	border: none;
+// 	background: transparent;
+// 	padding: 0;
+// 	}
+
+// #helloemail {
+// 	font-family: 'Source Sans Pro', sans-serif;
+// 	font-weight: 600;
+// 	//color: #dc0095 !important;
+// 	color: #4991ac !important;
+// 	display: inline-block;
+// }
+
+// #at {
+// 	font-weight: 300;
+// 	font-style: italic;
+// 	display: inline-block;
+// }
+
+// //text manipulation
+// // Scott Kilts / About
+// #about {
+//   display: none;
+//   width: 100%;
+//   text-align: center;
+//   padding: auto;
+//   //border: 1px solid;
+//   margin-top: 25px;
+//   margin-bottom: 25px;
+// }
+
+// input[type="text"]{
+//     //text-shadow: 0 0 0 #000;
+//     cursor: pointer;
+//     outline: 0;
+//     font-family: 'Podkova', serif;
+// 	font-size: 2rem;
+// 	font-weight: 400;
+//     margin: 0 auto;
+//     padding: 0;
+//     max-width: 80px;
+//     border: transparent;
+//     //color: #4991ac !important;
+//     letter-spacing: .1rem;
+//     text-shadow: 0 0 0 $ltBlue;
+// 	color: transparent !important;
+
+// }
+// input[type="text"]:focus{
+//     outline: none;
+// }
+// input[type="text"]:hover{
+// 	-webkit-transform: scale(0.95) rotateZ(-1deg);
+// 	-ms-transform: scale(0.95) rotateZ(-1deg);
+// 	transform: scale(0.95) rotateZ(-1deg);
+// 	transform-duration: 0.3s;
+// }
+// input:focus + span#about {
+//   	display: block;
+//   	}
+
+// //artist / lettering, watercolor
+// #artist {
+//   display: none;
+//   width: 100%;
+//   text-align: center;
+//   padding: auto;
+//   //border: 1px solid;
+//   margin-top: 25px;
+//   margin-bottom: 25px;
+// }
+// .artist {
+// 	max-width: 161px !important;
+// 	display: inline
+// }
+// input:focus + span#artist {
+//   	display: inline;
+// }
+
+// //designer / human computer interaction
+// #designer {
+//   display: none;
+//   width: 100%;
+//   text-align: center;
+//   padding: auto;
+//   //border: 1px solid;
+//   margin-top: 25px;
+//   margin-bottom: 25px;
+// }
+// .designer {
+// 	max-width: 138px !important;
+// 	display: inline
+// }
+// input:focus + span#designer {
+//   	display: inline;
+// }
+
+// //build / ux
+// #build {
+//   display: none;
+//   width: 100%;
+//   text-align: center;
+//   padding: auto;
+//   //border: 1px solid;
+//   margin-top: 25px;
+//   margin-bottom: 25px;
+// }
+// .build {
+// 	max-width: 277px !important;
+// 	display: inline
+// }
+// input:focus + span#build {
+//   	display: inline;
+// }
+
+// //work / behance - github
+// #work {
+//   display: none;
+//   width: 100%;
+//   text-align: center;
+//   padding: auto;
+//   //border: 1px solid;
+//   margin-top: 25px;
+//   margin-bottom: 25px;
+// }
+// .work {
+// 	max-width: 70px !important;
+// 	display: inline
+// }
+// input:focus + span#work {
+//   	display: inline;
+// }
+
+// //chat / contact window
+// #contact {
+//   display: none;
+//   width: 100%;
+//   text-align: center;
+//   padding: auto;
+//   //border: 1px solid;
+//   margin-top: 25px;
+//   //margin-bottom: 25px;
+// }
+// .contact {
+// 	max-width: 65px !important;
+// 	display: inline;
+// }
+// input:focus + span#contact {
+//   	display: inline;
+// }
+
+// // /text manipulation
+
+
+// //////////////////////////////////////////////////////
+// // */

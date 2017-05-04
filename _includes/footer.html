@@ -1,5 +1,27 @@
 <footer class="site-footer">
 
+  <div class="footer-wrapper">
+
+  <a href="/">
+      <img src="/img/mountainsandthesea.png" alt="Scott Kilts logo"> 
+    </a>
+
+    <ul class="contact">
+        {% if site.email %}
+        <li><a href="mailto:{{ site.email }}">hello<span id="at">[at]</span>scottkilts.com</a></li>
+        {% endif %}
+    </ul>
+
+  <p class="caption"><!-- This site was built using <a href="http://jekyllrb.com" target="_blank">Jekyll</a> and is hosted on <a href="https://github.com" target="_blank">Github</a>  -->scott kilts &#169; 2017</p>
+
+  </div>
+
+</footer>
+
+
+
+<!-- <footer class="site-footer">
+
 <div class="footer-wrapper">
 
 <!--     <ul class="links">
@@ -7,10 +29,10 @@
       <li><a href="/">home</a></li>
       <li><a href="/resume/">resume</a></li>
       <li><a href="/portfolio/">portfolio</a></li>
-    </ul> -->
+    </ul> - ->
 
     <a href="/">
-    <!--<span class="sr only">Scott Kilts</span>-->
+    <span class="sr only">Scott Kilts</span>
       <img src="/assets/mountainsandthesea.png" alt="Scott Kilts logo"> 
     </a>
 
@@ -22,4 +44,4 @@
 
   </div>
 
-</footer>
+</footer> -->

@@ -1,0 +1,321 @@
+/**
+ * Reset some basic elements
+ */
+body, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, hr,
+dl, dd, ol, ul, figure {
+    margin: 0;
+    padding: 0;
+}
+
+/** Variables **********************************************/
+$base-font-family:              'Raleway', sans-serif; //Helvetica, sans-serif;
+$base-line-height:              1.5em;
+$horizontal-spacing-unit:       50px;
+$vertical-spacing-unit:         40px;
+$nav-height:                    56px;
+
+/* portfolio tinkering */
+$img_spacing: 5px; 
+$img_height: 275px;
+$caption_font_size: 12px;
+$caption_color: #aaa;
+
+/* COLORS  */
+// *folio default colors
+// $red:  #FF3636;
+// $orange: #F29105;
+// $blue: #2698BA;
+// $green: #11D68B;
+// $lime_green: #B7D12A;
+// $purple: #B509AC;
+
+
+$grey-color-dark: #333;   /* footer */
+$grey-color-light: #ddd;  /* navigation bar border */
+
+
+$white: #F5F5F5;
+$fuchsia: #DC0095;
+$black: #424242;
+$ltblue: #1976d2;
+$green: #1DE9B6;
+$bright-white: #FFF;
+
+
+
+/* Set theme colors *************************/
+$theme-color:   $ltblue;//$red;
+$highlight-color: $fuchsia;
+$selection-color: $green;
+$text-color:     $black;
+$nav-color: rgba(66, 66, 66, 75);
+
+/************************************************************/
+
+/** =\ Testing /= ******************************************/
+
+body {
+p,a,h1,h2,h3,h4,h5,h6,img,span,br,b,i,strong,em,ul,li,code,div,blockquote {
+&::selection {
+color: $bright-white !important;
+background-color: $selection-color !important;
+        }
+    }
+}
+
+p {
+    font-family: 'Lora', serif;
+    max-width: 550px;
+}
+
+a {
+    opacity: 0.75;
+    // transition: all .3s ease;
+}
+
+h1,h2,p,ul {
+    //transition: all .3s ease; //***********************transition
+}
+
+.header-bar {
+max-width: 34em;
+h1 {
+font-family: 'Lora', serif;
+opacity: 0.75;
+    }
+h2 {
+color: $black;
+    }
+}
+
+
+
+
+/************************************************************/
+/************************************************************/
+
+/**
+ * Basic styling
+ */
+body {
+    font-family: $base-font-family;
+    font-size: $base-font-size;
+    line-height: $base-line-height;
+    font-weight: 100;
+    color: $black;//$text-color;
+    background-color: $background-color;
+    -webkit-text-size-adjust: 100%;
+    letter-spacing: 0.03rem;
+}
+
+
+
+/**
+ * Set `margin-bottom` to maintain vertical rhythm
+ */
+p, blockquote, pre,
+ul, ol, dl, figure,
+%vertical-rhythm {
+    margin-bottom: $vertical-spacing-unit / 2;
+}
+
+.alignright {
+    float: right;
+}
+
+
+hr{
+    /* Inset, by Dan Eden */
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+
+}
+
+
+/**
+ * Figures
+ */
+figure > img {
+    display: block;
+}
+
+figcaption {
+    font-size: $small-font-size;
+}
+
+
+
+/**
+ * Lists
+ */
+ul, ol {
+    margin-left: $horizontal-spacing-unit;
+}
+
+article ul {
+    list-style-type: none;
+
+    & li:before {
+        content: '//';
+        position: absolute;
+        margin-left: -1.33rem;
+        font-size: 1.066rem;
+    }
+}
+
+li {
+    > ul,
+    > ol {
+         margin-bottom: 0;
+    }
+}
+
+ul.post-list {
+margin-left: 3rem;
+li {
+h2 {
+}
+&:before {
+padding-top: .96rem;
+margin-left: -2rem;
+font-size: 1.66rem;
+@include media-query ($on-laptop) {
+padding-top: .79rem;
+margin-left: -1.33rem;
+font-size: 1.066rem
+            }
+        }   
+    }
+@include media-query ($on-laptop){
+}
+@include media-query ($on-palm) {
+margin-left: 1.5rem;    
+    }
+}
+
+
+
+/**
+ * Headings
+ */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 100;
+}
+
+
+/**
+ * Links
+ */
+a {
+    color: $text-color;
+    text-decoration: none;
+    border-bottom: 2px dotted currentColor;
+    /*
+    &:visited {
+        color: darken($brand-color, 15%); 
+    }
+    */
+    &:hover {
+        color: $theme-color;
+        text-decoration: none;
+        transition:  //***********************transition
+                    color 0.3s cubic-bezier(0.215, 0.61, 0.355, 1),
+                    border-bottom 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
+    }
+}
+
+article a {
+    color: $black;
+    font-style: italic;
+    opacity: 100;   
+    border-bottom: 2px dotted $theme-color;
+    //transition: all .3s ease;  //***********************transition
+
+    &:hover {
+        text-decoration: none;
+        color: $theme-color;
+    }
+}
+
+
+
+/**
+ * Blockquotes
+ */
+blockquote {
+    color: $text-color;
+    border-left: 10px solid $grey-color-light;
+    padding-left: $horizontal-spacing-unit / 2;
+    font-size: 18px;
+    font-style: italic;
+
+    > :last-child {
+        margin-bottom: 0;
+    }
+}
+
+
+
+/**
+ * Code formatting
+ */
+pre,
+code {
+    font-size: 15px;
+    border-radius: 3px;
+    background-color: $grey-color-light;
+}
+
+code {
+    padding: 1px 5px;
+}
+
+pre {
+    padding: 8px 12px;
+    overflow-x: scroll;
+
+    > code {
+        border: 0;
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+
+
+
+/**
+ * Wrapper
+ */ 
+
+.wrapper {
+    max-width: -webkit-calc(800px - (#{$horizontal-spacing-unit} * 2));
+    max-width:         calc(800px - (#{$horizontal-spacing-unit} * 2));
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: $horizontal-spacing-unit;
+    padding-left: $horizontal-spacing-unit;
+    @extend %clearfix;
+
+    @include media-query($on-laptop) {
+        max-width: -webkit-calc(800px - (#{$horizontal-spacing-unit}));
+        max-width:         calc(800px - (#{$horizontal-spacing-unit}));
+        padding-right: $spacing-unit / 2;
+        padding-left: $spacing-unit / 2;
+    }
+}
+
+
+/**
+ * Clearfix
+ */
+%clearfix {
+    &:before,
+    &:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
