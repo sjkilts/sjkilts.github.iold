@@ -83,7 +83,7 @@ padding: 0 0.25rem;
 }
 .page-link{
 line-height: $base-line-height;
-        // Gaps between nav items, but not on the first one
+// Gaps between nav items, but not on the first one
 &:not(:first-child) {
 margin-left: 10px;
         }
@@ -113,55 +113,48 @@ display: line;
 }
 
 .header-bar{
-    left: 0px;
-    top: 0px;
-    position: relative;
-    font-size: 20px;
-    display: block;
-    // opacity: 0.75;
-    width: 100%;
-    text-align: left;
-    padding-top: 1.5rem;
-    padding-bottom: 4.20rem;
-    line-height: 3em;
-    z-index: 25;
-    h1{
-        color: $theme-color;
-        font-size:75px;
-        line-height: 2em;
+left: 0px;
+top: 0px;
+position: relative;
+font-size: 20px;
+display: block;
+width: 100%;
+text-align: left;
+padding-top: 1.5rem;
+padding-bottom: 4.20rem;
+line-height: 3em;
+z-index: 25;
+h1{
+color: $theme-color;
+font-size:75px;
+line-height: 2em;
     }
-    h2{
-        font-size:2rem;//25px;
+h2{
+font-size:2rem;
     }
-    a {
-        transition: all .3s ease;
-        font-style: italic;
-        color: $text-color;
-        opacity: 100;
-        border-bottom: none;
-
-        &:hover {
-            color: $theme-color;
+a {
+transition: all .3s ease;
+font-style: italic;
+color: $text-color;
+opacity: 100;
+border-bottom: none;
+&:hover {
+color: $theme-color;
         }
-
-        span {
-            color: $theme-color;
-            border-bottom: 2px dotted $theme-color !important;
-            font-style: italic;
-
-            &:hover {
-                color: $text-color;
-                border-bottom: 2px dotted $text-color;
+span {
+color: $theme-color;
+border-bottom: 2px dotted $theme-color !important;
+font-style: italic;
+&:hover {
+color: $text-color;
+border-bottom: 2px dotted $text-color;
             }
         }
-
     }
-    .message{
-        padding-bottom: 2rem;
-        line-height: 2.33rem;//1.88rem;
-        //max-width: 450px;
-        margin: 0 auto;
-        //text-align: left;
+.message{
+padding-bottom: 2rem;
+line-height: 2.33rem;
+margin: 0 auto;
     }
 }
 
@@ -221,11 +214,10 @@ text-decoration: none;
 }
 
 ul.contact {
-    text-align: center;
+text-align: center;
 list-style-type: none;
 margin-left: 0px;
-
-& li { //remove .footer-email from markup
+& li {
 font-family: 'Raleway', sans-serif;
 font-size: 1.66rem;
 font-weight: 400;
@@ -234,15 +226,16 @@ padding-bottom: 25px;
 letter-spacing: .096rem;
 text-align: center;
 line-height: 2rem;
-
 & a:hover {
-    text-decoration: none;
+text-decoration: none;
     }
-
 & #at {
-    font-weight: 300;
-    font-style: italic;
-    display: inline-block;
+font-weight: 300;
+font-style: italic;
+display: inline-block;
+                }
+@include media-query($on-small) {
+font-size: 1.25rem;
                 }
             }
         }
@@ -295,13 +288,7 @@ margin: 10px;
 .center{
 text-align: center;
 }
-a.backlink {
-border-bottom: none;
-content: '< back';
-&:hover{
-color: $fuchsia;
-    }
-}
+
 /**
  * Posts  **********************************************************
  */
@@ -331,10 +318,19 @@ font-size: 28px;
     }
 h3 {
 font-size: 30px;
+font-family: 'Lora', serif;
+text-align: center;
+line-height: 1.45em;
+margin: 0 5vw;
 @include media-query($on-laptop) {
 font-size: 22px;
+line-height: 1.33em;
+margin: 0 12vw;
         }
+@include media-query($on-palm) {
+margin: 0 5vw;
     }
+}
 h4 {
 font-size: 20px;
 line-height: 2rem;
@@ -352,17 +348,37 @@ margin-bottom: 0px;
 display: block;
 font-size: 42px;
 }
-
-/** Poem formatting ********************************************/
-.poem-title {
-font-size: 24px;
-letter-spacing: -1px;
-line-height: 1;
-@include media-query($on-laptop) {
-font-size: 16px;
+img.work {
+width: 100%;
+}
+a.backlink {
+border-bottom: none;
+margin-bottom: 1em;
+display: block;
+&:hover {
+color: $fuchsia;
     }
 }
 
+/**
+ * Resume page *************************************************************
+*/
+.resume-info {
+& img {
+width: 150px;
+height: 150px;
+margin: 20px;
+background-image: url('/img/Scott-Kilts.jpg');
+background-size: cover;
+display: block;
+border-radius: 75px;
+-webkit-border-radius: 75px;
+-moz-border-radius: 75px;
+@include media-query ($on-small) {
+margin: 0 auto;
+        } 
+    }
+}
 
 /** 
  * Portfolio grid **********************************************************
@@ -384,18 +400,28 @@ float: left;
 vertical-align: middle;
 box-sizing: border-box;
 padding: 10px;
+@include media-query ($on-palm) {
+width: 50%;
+    }
+@include media-query ($on-small) {
+width: 100%;
+    }
 }
 .thumbnail{
 width: 100%;
 height: 230px;
 overflow: hidden;
+//background-color: $theme-color;
 }
 .thumbnail img{
-width: 500px;
-height: auto;
-position: relative;
-left: -25%;
-top: -5%;
+//width: 500px;
+width: auto;
+height: 280px;
+display: block;
+margin: 0 auto;
+//position: relative;
+//left: -25%;
+//top: -5%;
 }
 .thumbnail a{
 float: left;
@@ -430,6 +456,48 @@ width: 100%;
 overflow: hidden;
 box-sizing:border-box;
 padding: $img_spacing;
+& img.one, img.two {
+@include media-query ($on-palm) {
+width: 100%;
+height: auto;
+        }
+    }
+@include media-query ($on-palm) {
+overflow: visible;
+display: block;
+    }
+}
+.icon_row{
+height: $icon_height;
+width: 100%;
+//overflow: hidden;
+box-sizing: border-box;
+padding: $icon_spacing;
+display: inline;
+& .icon_container {
+display: inline-block !important;
+text-align: center;
+vertical-align: top;
+width: 19%;
+padding-bottom: 1em;
+@include media-query ($on-small) {
+width: 50% !important;
+margin-left: 20vw;
+        } 
+& p {
+display: block;
+        }
+    }
+& .icon {
+width: 100%;
+height: 100%;
+    }
+@include media-query ($on-small) {
+height: 100%;
+    }
+}
+.icon {
+width: 20%;
 }
 .col{ 
 width: 100%;

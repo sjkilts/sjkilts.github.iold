@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Project
-description: a project with a background image
-img: /img/1.jpg
+title: Disturb(ed)
+description: Hand lettering, watercolor & ink
+img: /img/artwork/Disturb(ed)-1200w.jpg
 client:
 ---
 
@@ -14,7 +14,7 @@ To give your project a background in the portfolio page, just add the img tag to
 	layout: post
 	title: Project
 	description: a project with a background image
-	img: /img/12.jpg
+	img: {{ site.baseurl }}/img/12.jpg
 	---
 
 

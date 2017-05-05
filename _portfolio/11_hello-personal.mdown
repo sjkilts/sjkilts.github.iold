@@ -1,0 +1,9 @@
+---
+layout: post
+title: Hello
+description: A portfolio theme for Jekyll
+img: /img/personal-projects/scottkilts.com-screencapture.png
+client:
+personal: yes
+---
+testing portfolio page layout with more than 3 client projects

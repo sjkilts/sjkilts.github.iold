@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Project
-description: another without an image
-img: 
+title: Imagine
+description: Lettering & Calligraphy, Watercolor & Ink
+img: /img/artwork/Imagine-1200w.jpg
 client: 
 ---
 

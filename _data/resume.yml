@@ -1,0 +1,87 @@
+---
+- name: Scott Kilts
+  email:  hello@scottkilts.com
+  github: sjkilts
+
+  employment:
+  - employer:  Scott Kilts Design
+    title: Owner / Operator
+    date:  2014-Present
+    description: Freelance design, illustration and web development.	
+
+  - employer:  Hosting Puget Sound
+    title:   Web Host Manager
+    date:  2016-2017
+    description:  Manage, update and support client websites.  
+                  Increased revenue and number of clients.
+
+  - employer:  M Agency
+    title:   Designer / Developer
+    date:  2016-2017
+    description:  Promote client business using illustration, print and web design.  
+                  Responsible for ux/ui, seo and full-stack development.
+
+  - employer:  Apache Pine
+    title:   Design Director
+    date:  2014-2016
+    description:  Design, development and marketing for an outdoor brand.  
+                  Increased sales with updated branding, product designs, ux/ui research and one-to-one program. 
+
+  - employer:  Apple Inc.
+    title:   CPU Advisor
+    date:  2013-2014
+    description:  Friendly voice of Apple, providing troubleshooting, creative technical solutions, and support. Remotely manage time and projects.
+
+  education:  
+  - school:  University of Utah
+    field: Computer Science
+    degree:  BS - unfinished
+    year:  2011-2013
+
+  - school:  University of Utah
+    field: Human Factors Psychology
+    degree:  Certificate
+    year:  '2013'
+
+  - school:  Weber State University
+    field: Computer Science
+    degree:  AAS
+    year:  '2011'
+
+  skills:
+  - skill: Illustration
+    icon:  /img/illustration-icon.png
+    
+  - skill: UI/UX
+    icon:  /img/ui_ux-icon.png
+
+  - skill: Design
+    icon:  /img/design-icon.png
+
+  - skill: Project Management
+    icon:  /img/project_management-icon.png
+
+  - skill: Strategy
+    icon:  /img/strategy-icon.png
+
+  highlight:  Strong ability to translate technical ideas into easily-understood concepts
+
+  tools: >
+          Sketch, Sublime Text. Github.    
+            Adobe Illustrator, InDesign, Photoshop.    
+              HTML5, CSS, JavaScript.      
+                JQuery, Sass, Liquid.    
+                  PHP, Ruby.    
+                    Troubleshooting, problem solving.   
+
+  interests: >
+              Reading. Climbing, skiing,  
+                slackline. Travel.  
+                  Being outdoors.  
+                    Design, typography.  
+                      Aesthetics, contrast.  
+                        Ink and watercolor,  
+                          calligraphy, sign painting.  
+                            Keeping up with the internet.  
+                              Mountains, waves.  
+                                The spirit of adventure!

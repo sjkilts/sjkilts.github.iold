@@ -18,6 +18,8 @@ $nav-height:                    56px;
 /* portfolio tinkering */
 $img_spacing: 5px; 
 $img_height: 275px;
+$icon_height: 150px;
+$icon_spacing: 5px;
 $caption_font_size: 12px;
 $caption_color: #aaa;
 
@@ -164,6 +166,9 @@ article ul {
         margin-left: -1.33rem;
         font-size: 1.066rem;
     }
+    @include media-query($on-small) {
+            margin-left: 30px;
+        }
 }
 
 li {

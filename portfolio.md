@@ -5,10 +5,17 @@ permalink: /portfolio/
 ---
 <div class="wrapper">
 <b>Client Work</b>
+
+<br>
+<br>In respect of my clients' privacy, work is password-protected.<br> Email <a href="mailto:{{ site.email }}">{{ site.email }}</a> to request a password<br>
+<br>
+<input placeholder="password">
+<input type="submit">
+
     <div class="client-work">
         {% for project in site.portfolio %}
-
-        {% if project.redirect %}
+        {% if project.published == false %}
+        {% elsif project.redirect %}
             <div class="project">
                 <div class="thumbnail">
                     <a href="{{ project.redirect }}" target="_blank">
@@ -57,7 +64,8 @@ permalink: /portfolio/
     <div class="personal-work">
 
         {% for project in site.portfolio %}
-        {% if project.client %}
+        {% if project.published == false %}
+        {% elsif project.client %}
         {% elsif project.redirect %}
 
             <div class="project">
@@ -78,7 +86,7 @@ permalink: /portfolio/
                     </a>
                 </div>
             </div>
-        {% elsif project.projectName %}
+        {% elsif project.personal == true %}
 
             <div class="project">
                 <div class="thumbnail">
@@ -107,10 +115,9 @@ permalink: /portfolio/
 <div class="art-work">
 
 {% for project in site.portfolio %}
-
-
-{% if project.client %}
-{% elsif project.projectName %}
+{% if project.published == false %}
+{% elsif project.client %}
+{% elsif project.personal == true %}
 {% elsif project.redirect %}
 <div class="project">
     <div class="thumbnail">

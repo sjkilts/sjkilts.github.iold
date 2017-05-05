@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Project
-description: a project with no image
-img: 
+title: Think Different
+description: Lettering, Ink
+img: /img/artwork/Think-Different-1200w.jpg
 client:
 ---
 
@@ -14,7 +14,7 @@ To give your project a background in the portfolio page, just add the img tag to
 	layout: post
 	title: Project
 	description: a project with a background image
-	img: {{ site.baseurl }}/img/12.jpg
+	img: /img/12.jpg
 	---
 
 

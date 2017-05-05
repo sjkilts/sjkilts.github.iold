@@ -1,10 +1,9 @@
 ---
 layout: post
-title: Project
-description: a project that redirects to another website
-img:
-redirect: https://unsplash.com
-client: sk
+title: Grand Teton National Park
+description: Watercolor & Ink
+img: /img/artwork/grand_teton_np-1200w.jpg
+client:
 ---
 
 Every project has a beautiful feature shocase page. It's easy to include images, in a flexible 3-column grid format. Make your photos 1/3, 2/3, or full width.

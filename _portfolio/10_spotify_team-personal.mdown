@@ -1,0 +1,8 @@
+---
+layout: post
+title: Spotify Team
+description: Collaborative playlists
+img: /img/personal-projects/spotify-team-1200w.png
+personal: yes
+---
+testing portfolio page layout with more than 3 client projects
