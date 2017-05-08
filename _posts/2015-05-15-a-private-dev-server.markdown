@@ -1,9 +1,11 @@
 ---
 layout: post
-title:  a post with images
+title:  setting up a private development server with Jekyll, Jekyll-Auth and Heroku
 date: 2015-05-15 21:01:00
 description: this is what included images could look like
 ---
+talk about the journey. list lots of sources. post some code. Talk about sourcing the github team id. bundler. etc.
+
 Jean shorts raw denim Vice normcore, art party High Life PBR skateboard stumptown vinyl kitsch. Fingerstache four loko meh 8-bit, tousled banh mi tilde forage Schlitz dreamcatcher twee 3 wolf moon. Chambray asymmetrical paleo salvia, sartorial umami four loko master cleanse drinking vinegar brunch. 
 
 <div class="img_row">

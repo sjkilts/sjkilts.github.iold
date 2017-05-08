@@ -2,7 +2,7 @@
 layout: post
 title: Hello
 description: A portfolio theme for Jekyll
-img: /img/personal-projects/scottkilts.com-screencapture.png
+img: /img/personal-projects/hello-theme-1200w.jpg
 client:
 personal: yes
 ---

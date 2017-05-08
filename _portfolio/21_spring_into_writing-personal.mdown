@@ -1,0 +1,8 @@
+---
+layout: post
+title: Spring Into Writing
+description: A series of posters for Tahoma West
+img: 
+personal: yes
+---
+testing portfolio page layout with more than 3 client projects

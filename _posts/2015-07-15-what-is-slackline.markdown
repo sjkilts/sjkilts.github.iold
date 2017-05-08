@@ -1,8 +1,8 @@
 ---
 layout: post
-title: a post with code
+title: So what is a slackline, anyway?
 date: 2015-07-15 15:09:00
-description: an example of a blog post with some code
+description: an example of a blog post with some code, Let's try and put a video or .gif in here too
 ---
 This theme implements a built-in Jekyll feature, the use of Pygments, for sytanx highlighting. It supports more than 100 languages. This example is in C++. All you have to do is wrap your code in a liquid tag: 
 {% raw  %}
@@ -28,6 +28,36 @@ int main(int argc, char const *argv[])
 	}
 	
 	return 0;
+}
+
+{% endhighlight %}
+
+How 'bout some SASS?
+
+{% highlight sass %}
+
+div.class {
+&:hover {
+	display: none;
+	}
+& .other-class {
+	content: 'bullshit';
+	}
+}
+
+{% endhighlight %}
+
+SCSS?
+
+{% highlight scss %}
+
+div.class {
+&:hover {
+	display: none;
+	}
+& .other-class {
+	content: 'more-bullshit';
+	}
 }
 
 {% endhighlight %}

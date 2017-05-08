@@ -448,7 +448,14 @@ display: block;
  * Portfolio pages **********************************************************
 */
 .blankbox{
-background: $theme-color;
+//background: $theme-color;
+/* GRADIENT */
+background: #dc0095;
+background: -moz-linear-gradient(top, #dc0095 8%, #1976d2 92%);
+background: -webkit-linear-gradient(top, #dc0095 8%,#1976d2 92%);
+background: linear-gradient(to bottom, #dc0095 8%,#1976d2 92%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dc0095', endColorstr='#1976d2',GradientType=0 );
+/* /GRADIENT */
 }
 .img_row{
 height: $img_height;

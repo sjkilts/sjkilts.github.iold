@@ -1,0 +1,10 @@
+---
+layout: post
+title: Geniuses
+description: Digital
+img: /img/artwork/geniuses-1200w.jpg
+personal: 
+client:
+published: yes
+---
+testing portfolio page layout with more than 3 client projects

@@ -7,10 +7,9 @@ permalink: /portfolio/
 <b>Client Work</b>
 
 <br>
-<br>In respect of my clients' privacy, work is password-protected.<br> Email <a href="mailto:{{ site.email }}">{{ site.email }}</a> to request a password<br>
+<br>Work is protected in respect of my clients' privacy<br>
+Please email <a href="mailto:{{ site.email }}">{{ site.email }}</a> to request access<br>
 <br>
-<input placeholder="password">
-<input type="submit">
 
     <div class="client-work">
         {% for project in site.portfolio %}

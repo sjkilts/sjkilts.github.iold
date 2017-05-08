@@ -1,0 +1,7 @@
+---
+layout: post
+title: Tahoma West 2017
+date: 2017-05-05 12:04:00
+description: Publishing the 2017 edition of Tahoma West Literary Arts Journal
+categories: 
+---

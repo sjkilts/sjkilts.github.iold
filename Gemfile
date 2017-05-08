@@ -20,10 +20,11 @@ gem "github-pages", group: :jekyll_plugins
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-   gem "html-proofer"
+   gem "json","~> 1.0"
+  #  gem "html-proofer"
 end
 
-#gem "json"
+# gem "json"
 
 # gem 'bourbon'
 # gem "neat"
@@ -34,9 +35,9 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # Set up github pages
-require 'json'
-require 'open-uri'
-versions = JSON.parse(open('https://pages.github.com/versions.json').read)
+# require 'json'
+# require 'open-uri'
+# versions = JSON.parse(open('https://pages.github.com/versions.json').read)
 
 #gem 'github-pages', versions['github-pages']
 # /github pages
