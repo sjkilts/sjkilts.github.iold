@@ -89,9 +89,25 @@ opacity: 0.75;
 h2 {
 color: $black;
     }
+h3 {
+    }
 }
 
-
+h3 {
+//font-family: 'Lora', serif;
+font-style: italic;
+color: $black;
+&:after {
+content: '';
+margin-top: 1.2em;
+margin-bottom: 1.2em;
+opacity: .75;
+width: 2em;
+height: 1px;
+background: $black;
+display: block;
+        }
+}
 
 
 /************************************************************/
@@ -182,6 +198,12 @@ ul.post-list {
 margin-left: 3rem;
 li {
 h2 {
+& a {
+color: $theme-color;
+&:active {
+color: $black;
+    }
+}
 }
 &:before {
 padding-top: .96rem;

@@ -25,7 +25,7 @@ permalink: /resume/
 
 <p style="line-height: 1.75;">
 {% for school in resume.education %}
-<strong>{{ school.field }}</strong> {{ school.school }} <em>({{ school.degree }}, {{ school.year }})</em><br>
+	<strong>{{ school.field }}</strong> {{ school.school }} <em>({{ school.degree }}, {{ school.year }})</em><br>
 {% endfor %}
 </p>
 

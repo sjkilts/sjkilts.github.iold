@@ -3,7 +3,9 @@ layout: page
 title: portfolio
 permalink: /portfolio/
 ---
+
 <div class="wrapper">
+
 <b>Client Work</b>
 
 <br>
@@ -12,47 +14,20 @@ Please email <a href="mailto:{{ site.email }}">{{ site.email }}</a> to request a
 <br>
 
     <div class="client-work">
+
         {% for project in site.portfolio %}
         {% if project.published == false %}
         {% elsif project.redirect %}
-            <div class="project">
-                <div class="thumbnail">
-                    <a href="{{ project.redirect }}" target="_blank">
-                        {% if project.img %}
-                            <img class="thumbnail" src="{{ project.img }}"/>
-                        {% else %}
-                            <div class="thumbnail blankbox"></div>
-                        {% endif %}    
-                    <span>
-                        <h1>{{ project.title }}</h1>
-                        <br/>
-                        <p>{{ project.description }}</p>
-                    </span>
-                    </a>
-                </div>
-            </div>
+
+            {% include project-redirect.html %}
         
         {% elsif project.client %}
 
-            <div class="project">
-                <div class="thumbnail">
-                    <a href="{{ site.baseurl }}{{ project.url }}">
-                        {% if project.img %}
-                            <img class="thumbnail" src="{{ project.img }}"/>
-                        {% else %}
-                            <div class="thumbnail blankbox"></div>
-                        {% endif %}    
-                    <span>
-                        <h1>{{ project.title }}</h1>
-                        <br/>
-                        <p>{{ project.description }}</p>
-                    </span>
-                    </a>
-                </div>
-            </div>
+            {% include project-thumbnail.html %}
 
         {% endif %}
         {% endfor %}
+
     </div> <!--/.client-work-->
 </div> <!--/.wrapper-->
 
@@ -67,136 +42,38 @@ Please email <a href="mailto:{{ site.email }}">{{ site.email }}</a> to request a
         {% elsif project.client %}
         {% elsif project.redirect %}
 
-            <div class="project">
+            {% include project-redirect.html %}
 
-                <div class="thumbnail">
-
-                    <a href="{{ project.redirect }}" target="_blank">
-                        {% if project.img %}
-                            <img class="thumbnail" src="{{ project.img }}"/>
-                        {% else %}
-                            <div class="thumbnail blankbox"></div>
-                        {% endif %}    
-                    <span>
-                        <h1>{{ project.title }}</h1>
-                        <br/>
-                        <p>{{ project.description }}</p>
-                    </span>
-                    </a>
-                </div>
-            </div>
         {% elsif project.personal == true %}
 
-            <div class="project">
-                <div class="thumbnail">
-                    <a href="{{ site.baseurl }}{{ project.url }}">
-                        {% if project.img %}
-                            <img class="thumbnail" src="{{ project.img }}"/>
-                        {% else %}
-                            <div class="thumbnail blankbox"></div>
-                        {% endif %}    
-                    <span>
-                        <h1>{{ project.title }}</h1>
-                        <br/>
-                        <p>{{ project.description }}</p>
-                    </span>
-                    </a>
-                </div>
-            </div>
+            {% include project-thumbnail.html %}
 
         {% endif %}
         {% endfor %}
+
     </div> <!--/.personal-work-->
 </div> <!--/.wrapper-->
 
 <div class="wrapper">
+
 <b>Artwork</b>
-<div class="art-work">
 
-{% for project in site.portfolio %}
-{% if project.published == false %}
-{% elsif project.client %}
-{% elsif project.personal == true %}
-{% elsif project.redirect %}
-<div class="project">
-    <div class="thumbnail">
-        <a href="{{ project.redirect }}" target="_blank">
-        {% if project.img %}
-        <img class="thumbnail" src="{{ project.img }}"/>
+    <div class="art-work">
+
+        {% for project in site.portfolio %}
+        {% if project.published == false %}
+        {% elsif project.client %}
+        {% elsif project.personal == true %}
+        {% elsif project.redirect %}
+
+            {% include project-redirect.html %}
+
         {% else %}
-        <div class="thumbnail blankbox"></div>
-        {% endif %}    
-        <span>
-            <h1>{{ project.title }}</h1>
-            <br/>
-            <p>{{ project.description }}</p>
-        </span>
-        </a>
-    </div>
-</div>
-{% else %}
 
-<div class="project ">
-    <div class="thumbnail">
-        <a href="{{ site.baseurl }}{{ project.url }}">
-        {% if project.img %}
-        <img class="thumbnail" src="{{ project.img }}"/>
-        {% else %}
-        <div class="thumbnail blankbox"></div>
-        {% endif %}    
-        <span>
-            <h1>{{ project.title }}</h1>
-            <br/>
-            <p>{{ project.description }}</p>
-        </span>
-        </a>
-    </div>
-</div>
+            {% include project-thumbnail.html %}
 
-{% endif %}
+        {% endif %}
+        {% endfor %}
 
-{% endfor %}
-</div><!--/.art-work-->
+    </div><!--/.art-work-->
 </div><!--/.wrapper-->
-
-<!-- {% for project in site.portfolio %}
-
-{% if project.redirect %}
-<div class="project">
-    <div class="thumbnail">
-        <a href="{{ project.redirect }}" target="_blank">
-        {% if project.img %}
-        <img class="thumbnail" src="{{ project.img }}"/>
-        {% else %}
-        <div class="thumbnail blankbox"></div>
-        {% endif %}    
-        <span>
-            <h1>{{ project.title }}</h1>
-            <br/>
-            <p>{{ project.description }}</p>
-        </span>
-        </a>
-    </div>
-</div>
-{% else %}
-
-<div class="project ">
-    <div class="thumbnail">
-        <a href="{{ site.baseurl }}{{ project.url }}">
-        {% if project.img %}
-        <img class="thumbnail" src="{{ project.img }}"/>
-        {% else %}
-        <div class="thumbnail blankbox"></div>
-        {% endif %}    
-        <span>
-            <h1>{{ project.title }}</h1>
-            <br/>
-            <p>{{ project.description }}</p>
-        </span>
-        </a>
-    </div>
-</div>
-
-{% endif %}
-
-{% endfor %} -->

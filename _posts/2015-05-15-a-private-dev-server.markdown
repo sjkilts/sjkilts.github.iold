@@ -3,8 +3,13 @@ layout: post
 title:  setting up a private development server with Jekyll, Jekyll-Auth and Heroku
 date: 2015-05-15 21:01:00
 description: this is what included images could look like
+category: tech
+tags: [web,jekyll,heroku,security,jekyll-auth]
+published: no
 ---
 talk about the journey. list lots of sources. post some code. Talk about sourcing the github team id. bundler. etc.
+
+the mission seems fairly obvious, have a place where you can build and test websites / communicate as a team that other people can’t easily see. Jekyll-auth makes that easy. Also, free private dev server is just cool
 
 Jean shorts raw denim Vice normcore, art party High Life PBR skateboard stumptown vinyl kitsch. Fingerstache four loko meh 8-bit, tousled banh mi tilde forage Schlitz dreamcatcher twee 3 wolf moon. Chambray asymmetrical paleo salvia, sartorial umami four loko master cleanse drinking vinegar brunch. 
 

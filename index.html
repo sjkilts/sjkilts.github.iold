@@ -2,24 +2,11 @@
 layout: default
 ---
 
-<div class="header-bar">
-  <h1>Hello,</h1>
-  <h2 class="message">my name is Scott  <a href="/resume/">(<span>resume</span>)</a><br>
-  <br>
-  I'm a designer, an illustrator and an advocate for user-centered design. Currently available for projects, commissions, and full-time remote work <a href="/portfolio/">(check out my <span>portfolio</span>)</a> <br>
-  <br>
-  I'd love to chat <a href="https://scottkilts.typeform.com/to/ahYYrD" target="_blank">(send me a <span>message</span>)</a><br>
-  <br>
-  have a great day!</h2>
-</div>
+{% if paginator.previous_page %}
+{% else %}
 
-<ul class="post-list">
-    {% for post in paginator.posts %}
-      <li>
-        <h2><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
-        <p class="post-meta">{{ post.date | date: '%B %-d, %Y — %H:%M' }}</p>
-        <p>{{ post.description }}</p>
-        <br/>
-      </li>
-    {% endfor %}
-</ul>
+  {% include hello.html %}
+
+{% endif %}
+
+{% include post-list.html %}

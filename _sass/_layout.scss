@@ -2,7 +2,7 @@
  * page highlight color   *************************************************
  */
 body.body {
-    padding-top: .66vh;
+    // padding-top: .66vh;
     background: $fuchsia;
 }
 
@@ -155,6 +155,7 @@ border-bottom: 2px dotted $text-color;
 padding-bottom: 2rem;
 line-height: 2.33rem;
 margin: 0 auto;
+margin-right: 1em;
     }
 }
 
@@ -249,8 +250,15 @@ font-size: 1.25rem;
 max-width: -webkit-calc(800px - (#{$horizontal-spacing-unit} * 2));
 text-align: center;
 width: 100%;
-position: fixed;
+//position: fixed;
 bottom: 50px;
+a {
+border-bottom: none;
+&:hover {
+color: $fuchsia;
+transition: all .3s ease;
+        }
+    }
 }
 .paginationicon {
 font-size: 50px;
@@ -299,8 +307,10 @@ margin-bottom: $vertical-spacing-unit;
 font-family: 'Lora', serif;
 font-style: italic;
 font-size: 3rem;
-line-height: 5rem;
+line-height: 4rem;
+padding-top: 1em;
 border-bottom: none;
+//color: $theme-color;
 @include media-query($on-laptop) {
 font-size: 36px;
     }
@@ -411,9 +421,19 @@ width: 100%;
 width: 100%;
 height: 230px;
 overflow: hidden;
-//background-color: $theme-color;
-}
-.thumbnail img{
+background-color: $theme-color;
+@include media-query ($on-small) {
+width: 100%;
+height: 100%;
+/* GRADIENT * /
+background: #dc0095;
+background: -moz-linear-gradient(top, #dc0095 8%, #1976d2 92%);
+background: -webkit-linear-gradient(top, #dc0095 8%,#1976d2 92%);
+background: linear-gradient(to bottom, #dc0095 8%,#1976d2 92%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dc0095', endColorstr='#1976d2',GradientType=0 );
+/* /GRADIENT */
+    }
+& img{
 //width: 500px;
 width: auto;
 height: 280px;
@@ -422,14 +442,30 @@ margin: 0 auto;
 //position: relative;
 //left: -25%;
 //top: -5%;
+@include media-query ($on-small) {
+width: 100%;
+height: auto;
+        }
+@include media-query ($on-palm) {
+width: 100%;
+height: auto;
+        }
+    }
+& h1 {
+line-height: 1.75rem;
+color: $white;
 }
-.thumbnail a{
+& a {
 float: left;
 position: relative;
 width: 100%;
 height: 230px;
-}
-.thumbnail a span {
+border-bottom: none;
+@include media-query ($on-small) {
+width: 100%;
+height: auto;
+        }
+& span {
 display: none;
 position: absolute;
 top: 0;
@@ -440,9 +476,11 @@ background: rgba(0,0,0,0.4);
 color: $grey-color-light;
 padding: 40px;
 text-align: center;
-}
-.thumbnail a:hover span {
+        }
+&:hover span {
 display: block;
+        }
+    }
 }
 /** 
  * Portfolio pages **********************************************************
