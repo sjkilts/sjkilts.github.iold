@@ -109,6 +109,45 @@ display: block;
         }
 }
 
+.page-content {
+div.fourohfour {// 404 page specific styles
+& img {
+width: 100%;
+    }
+& h1 { 
+font-family: 'Lora', serif;
+line-height: 3.25em;
+font-size: 3em;
+    } 
+& a {
+transition: color .3s ease;
+transition: border-bottom .3s ease;
+font-style: italic;
+font-size: 1.25rem;
+padding-right: .5em;
+color: $text-color;
+opacity: 100;
+border-bottom: none;
+&:hover {
+color: $theme-color;
+            }
+span {
+color: $theme-color;
+border-bottom: 2px dotted $theme-color !important;
+font-style: italic;
+&:hover {
+color: $text-color;
+border-bottom: 2px dotted $text-color;
+                }
+            }
+@include media-query($on-palm) {
+display: block;
+line-height: 2;
+            }
+        }
+    }
+}
+
 
 /************************************************************/
 /************************************************************/

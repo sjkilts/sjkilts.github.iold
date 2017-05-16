@@ -5,10 +5,10 @@ date: 2015-07-15 15:09:00
 description: an example of a blog post with some code, Let's try and put a video or .gif in here too
 category: outside
 tags: [slackline,climb]
-published: yes
+published: no
 ---
 
-*that slackfline 101 post*
+*that slackline 101 post*
 
 People still don’t know. Let’s inform them. This may be a series of posts, but let’s start with the basics.
 
