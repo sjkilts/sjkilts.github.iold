@@ -1,0 +1,10 @@
+---
+layout: post
+title: Na Pali Coast
+description: Watercolor & Ink
+img: /img/artwork/na_pali_coast-1200w.jpg
+client:
+personal:
+published: no
+---
+testing portfolio page layout with more than 3 client projects

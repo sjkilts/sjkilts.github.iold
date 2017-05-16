@@ -1,0 +1,9 @@
+---
+layout: post
+title: TW17 Submissions
+description: A series of posters to promote student submissions for the 2017 edition of Tahoma West Literary Arts Journal
+img: 
+personal: yes
+published: no
+---
+testing portfolio page layout with more than 3 client projects

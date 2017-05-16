@@ -1,0 +1,12 @@
+---
+layout: post
+title: arguing for User-Centered Design
+date: 2015-04-17 12:04:00
+description: reference Dr. Rose's paper
+category: design
+tags: [design,user experience,tech] 
+published: no
+---
+Arguing for user-centered design
+
+Read her paper again, reference it, email her? Get a cool testimonial quote? Write about it.

@@ -1,0 +1,9 @@
+---
+layout: post
+title: an overveiw of Jekyll and static sites
+date: 2015-03-07 12:04:00
+description: What exactly is a static site generator, and should you use one for your website? 
+category: tech
+tags: [software,web,tech,jekyll]
+published: no
+---

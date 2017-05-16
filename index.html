@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+{% if paginator.previous_page %}
+{% else %}
+
+  {% include hello.html %}
+
+{% endif %}
+
+{% if paginator.total_pages > 0 %}
+
+  {% include post-list.html %}
+
+{% endif %}
