@@ -6,4 +6,3 @@ img: /img/artwork/Notorious-1200w.jpg
 client:
 personal:
 ---
-testing portfolio page layout with more than 3 client projects

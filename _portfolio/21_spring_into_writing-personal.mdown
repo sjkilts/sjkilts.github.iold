@@ -6,4 +6,3 @@ img:
 personal: yes
 published: no
 ---
-testing portfolio page layout with more than 3 client projects

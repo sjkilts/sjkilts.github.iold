@@ -9,7 +9,7 @@ permalink: /portfolio/
 <b>Client Work</b>
 
 <br>
-<br>Work is protected in respect of my clients' privacy<br>
+<br>Work is hidden in respect of my clients' privacy<br>
 Please email <a href="mailto:{{ site.email }}">{{ site.email }}</a> to request access<br>
 <br>
 
@@ -31,7 +31,7 @@ Please email <a href="mailto:{{ site.email }}">{{ site.email }}</a> to request a
     </div> <!--/.client-work-->
 </div> <!--/.wrapper-->
 
-<div class="wrapper">
+<!-- <div class="wrapper">
 
 <b>Personal Projects</b>
 
@@ -51,8 +51,8 @@ Please email <a href="mailto:{{ site.email }}">{{ site.email }}</a> to request a
         {% endif %}
         {% endfor %}
 
-    </div> <!--/.personal-work-->
-</div> <!--/.wrapper-->
+    </div> <!--/.personal-work- ->
+</div> <!--/.wrapper- -> -->
 
 <div class="wrapper">
 

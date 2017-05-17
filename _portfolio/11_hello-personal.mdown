@@ -5,6 +5,6 @@ description: A portfolio theme for Jekyll
 img: /img/personal-projects/hello-theme-1200w.jpg
 client:
 personal: yes
-published: yes
+published: no
 ---
 testing portfolio page layout with more than 3 client projects
