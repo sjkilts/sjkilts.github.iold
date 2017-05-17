@@ -1,0 +1,25 @@
+<div class="sidebar">
+
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+    <h5 class="post-description">{{ page.description }}</h5>
+  </header>
+
+  <p>{{ page.sidebar }}</p>
+
+  <ul>
+    <li><a href="/portfolio">view all</a></li>
+  {% assign project = site.portfolio | group_by:"category" %}
+  {% for p in project %}
+
+    <li><a href="/portfolio">{{ p.name }}</a></li>
+    <!-- <ul>
+      {% for work in p.items %}
+      <li><a href="{{ work.url }}">{{ work.title }}</a></li>
+      {% endfor %}      
+    </ul> -->
+
+  {% endfor %}
+  </ul>
+
+</div>

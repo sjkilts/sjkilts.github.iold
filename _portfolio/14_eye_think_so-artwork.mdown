@@ -1,9 +1,0 @@
----
-layout: post
-title: Eye think so
-description: Watercolor pencil, ink
-img: /img/artwork/Eye-think-so-1200w.jpg
-client:
-personal:
----
-testing portfolio page layout with more than 3 client projects

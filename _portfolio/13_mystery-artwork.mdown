@@ -1,9 +1,0 @@
----
-layout: post
-title: Mystery
-description: Ink lettering
-img: /img/artwork/Mystery-1200w.jpg
-client:
-personal:
----
-testing portfolio page layout with more than 3 client projects
