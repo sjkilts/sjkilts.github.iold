@@ -125,6 +125,7 @@ padding-bottom: 4.20rem;
 line-height: 3em;
 z-index: 25;
 @include media-query($on-palm) {
+display: inline;
 a {
 display: block;
         }
@@ -181,8 +182,8 @@ color: $text-color;
 padding-right: 0;
 padding: 0;
 border-bottom: 2px dotted $text-color;
-@include media-query($on-palm) {
-display: inline;
+display: inline !important;
+                }
             }
         }
     }
