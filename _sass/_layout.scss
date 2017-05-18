@@ -51,7 +51,7 @@ color: $fuchsia
         }
     }
 }
-@include media-query($on-palm){
+@include media-query($on-palm) {
 font-size: 1rem;
 .logo{
     font-size: 1.125rem;
@@ -528,11 +528,19 @@ display: block;
  *********** */
 
  div.main {
+<<<<<<< HEAD
 // max-width: 1000px;
 // margin: 0 auto;
 // position: relative;
 // display: block;
 // padding: 100px 0;
+=======
+max-width: 1000px;
+margin: 0 auto;
+position: relative;
+display: block;
+padding: 100px 0;
+>>>>>>> portfolio page redesign & content updates
 & div.sidebar {
 position: fixed;
 margin-top: 1.88em;
@@ -542,9 +550,12 @@ top: 0px;
 float: left;
 width: 270px;
 z-index: 1;
+<<<<<<< HEAD
 @include media-query ($on-palm) {
 display: none;
     }    
+=======
+>>>>>>> portfolio page redesign & content updates
   }
 }
 
@@ -552,11 +563,16 @@ display: none;
  Updated portfolio page styles
  */
 div.content-main {
+<<<<<<< HEAD
 //padding-left: 50px;
+=======
+padding-left: 50px;
+>>>>>>> portfolio page redesign & content updates
 margin-left: 280px;
 padding-top: 2.75em;
 margin-top: -10px;
 overflow: hidden;
+<<<<<<< HEAD
 @include media-query ($on-palm) {
 margin: 0 auto;
     } 
@@ -573,6 +589,12 @@ margin-left: -.5%;
 list-style-type: none;
 display: inline-block;
 width: 30%;
+=======
+& li {
+list-style-type: none;
+display: inline-block;
+width: 28.6%;
+>>>>>>> portfolio page redesign & content updates
 position: relative;
 margin-left: 1.5%;
 margin-bottom: 1.5%;
@@ -580,10 +602,13 @@ float: left;
 height: auto;
 display: inline-block;
 overflow: hidden;
+<<<<<<< HEAD
 // @include media-query($on-small){
 // width: calc(400px - (#{$horizontal-spacing-unit} * 2));
 // max-width: 200px;
 //         }
+=======
+>>>>>>> portfolio page redesign & content updates
 & a {
 border: none;
 opacity: 1.0;
