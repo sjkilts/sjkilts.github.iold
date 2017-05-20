@@ -9,4 +9,4 @@ personal:
 client:
 published: yes
 ---
-![/img/artwork/scottkilts-1200w.jpg](scottkilts brush)
+![sk](/img/artwork/scottkilts-1200w.jpg)

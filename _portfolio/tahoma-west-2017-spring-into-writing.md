@@ -1,9 +1,0 @@
----
-layout: post
-title: Spring Into Writing
-description: A series of posters for Tahoma West
-img: 
-personal: yes
-published: no
----
-make this a blog post
