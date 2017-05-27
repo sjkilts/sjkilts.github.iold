@@ -5,5 +5,5 @@ date: 2017-04-30 12:04:00
 description: A project put together for Black In Tech's 2017 Hackathon hosted by Facebook in Seattle
 category: tech
 tags: [tech, hackathon, facebook, black in tech, news, goodNews]
-published: yes
+published: no
 ---

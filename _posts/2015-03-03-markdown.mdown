@@ -5,7 +5,7 @@ date: 2015-03-03 12:04:00
 description: What is Markdown, how I use it, and how it might benefit you
 category: tech
 tags: [software,markdown]
-published: yes
+published: no
 ---
 
 *because markdown deserves more attention*

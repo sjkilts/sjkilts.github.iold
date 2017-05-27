@@ -5,7 +5,7 @@ date: 2015-05-15 21:01:00
 description: this is what included images could look like
 category: tech
 tags: [web,jekyll,heroku,security,jekyll-auth]
-published: yes
+published: no
 ---
 talk about the journey. list lots of sources. post some code. Talk about sourcing the github team id. bundler. etc.
 

@@ -6,5 +6,5 @@ img: /img/personal-projects/thumb-nodapl.jpg
 date: 2016-11-30
 category: personal
 personal: 
-published: yes
+published: no
 ---
