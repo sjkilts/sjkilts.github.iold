@@ -1,5 +1,5 @@
 ---
-layout: sidebar
+layout: detail
 title: goodNews
 description: A better news feed
 img: /img/personal-projects/thumb-gn.jpg

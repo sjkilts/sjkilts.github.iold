@@ -1,5 +1,5 @@
 ---
-layout: sidebar
+layout: detail
 title: Eye think so
 description: Watercolor pencil, ink
 img: /img/artwork/thumb-eye.jpg

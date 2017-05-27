@@ -1,5 +1,5 @@
 ---
-layout: sidebar
+layout: detail
 title: Bold & Boundless
 description: Lettering & logo design
 img: /img/client/thumb-bb.jpg

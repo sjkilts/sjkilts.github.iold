@@ -1,5 +1,5 @@
 ---
-layout: sidebar
+layout: detail
 title: Notorious
 description: Watercolor & Ink
 img: /img/artwork/thumb-notorious.jpg

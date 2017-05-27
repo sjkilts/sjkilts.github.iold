@@ -1,5 +1,5 @@
 ---
-layout: sidebar
+layout: detail
 title: Na Pali Coast
 description: Watercolor & Ink
 img: /img/artwork/thumb-na-pali.jpg

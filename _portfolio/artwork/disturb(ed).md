@@ -1,5 +1,5 @@
 ---
-layout: sidebar
+layout: detail
 title: Disturb(ed)
 description: Hand lettering, watercolor & ink
 img: /img/artwork/thumb-disturb.jpg

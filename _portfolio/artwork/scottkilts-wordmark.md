@@ -1,5 +1,5 @@
 ---
-layout: sidebar
+layout: detail
 title: scottkilts
 description: Calligraphy, brush & ink
 img: /img/artwork/thumb-sk.jpg

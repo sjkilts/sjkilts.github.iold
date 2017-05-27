@@ -1,5 +1,5 @@
 ---
-layout: sidebar
+layout: detail
 title: Spotify Team
 description: Collaborative playlists
 img: /img/personal-projects/thumb-spotify-team.jpg

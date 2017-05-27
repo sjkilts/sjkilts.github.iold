@@ -1,5 +1,5 @@
 ---
-layout: sidebar
+layout: detail
 title: Rainier
 description: Digital
 img: /img/artwork/rainier_sketch-1200w.jpg

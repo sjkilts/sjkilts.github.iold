@@ -1,5 +1,5 @@
 ---
-layout: sidebar
+layout: detail
 title: Mystery
 description: Ink lettering
 img: /img/artwork/thumb-mystery.jpg

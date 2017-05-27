@@ -1,5 +1,5 @@
 ---
-layout: sidebar
+layout: detail
 title: Project
 description: a project that redirects to another website
 img:

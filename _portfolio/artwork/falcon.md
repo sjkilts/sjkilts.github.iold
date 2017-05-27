@@ -1,5 +1,5 @@
 ---
-layout: sidebar
+layout: detail
 title: Falcon
 description: Watercolor
 img: /img/artwork/thumb-falcon.jpg

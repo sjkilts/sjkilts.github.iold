@@ -1,5 +1,5 @@
 ---
-layout: sidebar
+layout: detail
 title: Apache Pine
 description: All the things
 img: /img/client/thumb-ap.jpg

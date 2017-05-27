@@ -1,5 +1,5 @@
 ---
-layout: sidebar
+layout: detail
 title: Hello
 description: A portfolio theme for Jekyll
 img: /img/personal-projects/thumb-hello.jpg

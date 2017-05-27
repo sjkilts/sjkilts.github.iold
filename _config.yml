@@ -29,6 +29,9 @@ highlighter: pygments
 paginate: 5
 paginate_path: "/:num/"
 
+#category_dir: "portfolio"
+#category_layout: ""
+
 collections:
   portfolio:
     output: true

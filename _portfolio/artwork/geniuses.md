@@ -1,5 +1,5 @@
 ---
-layout: sidebar
+layout: detail
 title: Geniuses
 description: Digital
 img: /img/artwork/thumb-geniuses.jpg

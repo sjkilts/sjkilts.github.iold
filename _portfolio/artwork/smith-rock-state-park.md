@@ -1,5 +1,5 @@
 ---
-layout: sidebar
+layout: detail
 title: Smith Rock State Park
 description: Watercolor & Ink
 img: /img/artwork/thumb-smith.jpg

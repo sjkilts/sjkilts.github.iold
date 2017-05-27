@@ -1,5 +1,5 @@
 ---
-layout: sidebar
+layout: detail
 title: TW17 Submissions
 description: A series of posters to promote student submissions for the 2017 edition of Tahoma West Literary Arts Journal
 img: /img/personal-projects/thumb-nodapl.jpg

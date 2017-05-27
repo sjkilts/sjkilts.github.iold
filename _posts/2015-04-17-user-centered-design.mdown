@@ -5,7 +5,7 @@ date: 2015-04-17 12:04:00
 description: reference Dr. Rose's paper
 category: design
 tags: [design,user experience,tech] 
-published: no
+published: yes
 ---
 Arguing for user-centered design
 

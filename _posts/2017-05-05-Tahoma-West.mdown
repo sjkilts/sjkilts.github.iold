@@ -5,5 +5,5 @@ date: 2017-05-05 12:04:00
 description: Publishing the 2017 edition of Tahoma West Literary Arts Journal
 category: design
 tags: [design, publish, Tahoma West]
-published: no
+published: yes
 ---

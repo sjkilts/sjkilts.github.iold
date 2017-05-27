@@ -5,7 +5,7 @@ date: 2017-04-25 12:04:00
 description: welcome to the hello theme & www.scottkilts.com
 category: tech
 tags: [web, jekyll, design, tech] 
-published: no
+published: yes
 ---
 
 This post represents a major update to scottkilts.com and the release of the *hello* theme for Jekyll.

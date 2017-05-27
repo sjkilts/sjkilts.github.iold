@@ -1,5 +1,5 @@
 ---
-layout: sidebar
+layout: detail
 title: Spring Into Writing
 description: A series of posters for Tahoma West
 img: 

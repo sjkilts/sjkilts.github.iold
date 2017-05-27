@@ -1,0 +1,98 @@
+{% capture portfolio %}{{ page.collection }}{% endcapture %}
+
+{% if page.collection %}
+  
+  {% assign list = site[portfolio] | sort: "date" | reversed %}
+
+{% endif %}
+
+
+{% for work in list %}
+  
+  {% if work.index == true %}
+
+  {% else %}
+  
+
+    {% if work.title == page.title %}
+
+
+      {% unless forloop.first %}
+
+        {% assign prevurl = prev.url %}
+
+        {% assign prevtitle = prev.title %}
+
+      {% endunless %}
+
+
+      {% unless forloop.last %}
+
+        {% assign next = list[forloop.index] %}
+
+        {% assign nexturl = next.url %}
+
+        {% assign nextitle = next.title %}
+
+      {% endunless %}
+
+    {% endif %}
+
+
+  {% endif %}
+
+
+  {% assign prev = work %}
+
+{% endfor %}
+
+{% if prevurl or nexturl %}
+
+  <div class="pagination">
+
+    {% if prevurl %}<a href="{{ prevurl }}" class="prev">Next view {{ prevtitle }}</a>{% endif %}
+
+    {% if nexturl %}<a href="{{ nexturl }}" class="prev">{{ nexttitle }} </a>{% endif %}
+
+  </div>
+
+{% endif %}
+
+
+
+<!-- {% if page.paginator %}
+<p>YES</p>
+{% assign paginator = page.paginator %}
+{% else %}
+<p>NO</p>
+{% endif %}
+
+{% if page.collection %}
+<p> yes </p>
+{% else %}
+<p> no </p>
+{% endif %}
+
+{% if paginator.total_pages > 1 %}
+<div class="pagination">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
+  {% else %}
+  {% endif %}
+
+  {% for page in (1..paginator.total_pages) %}
+    {% if page == paginator.page %}
+      <em>{{ page }}</em>
+    {% elsif page == 1 %}
+      <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
+    {% else %}
+      <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+    {% endif %}
+  {% endfor %}
+
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
+  {% else %}
+  {% endif %}
+</div>
+{% endif %} -->

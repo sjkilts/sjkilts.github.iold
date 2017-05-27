@@ -1,5 +1,5 @@
 ---
-layout: sidebar
+layout: detail
 title: Imagine
 description: Lettering & Calligraphy, Watercolor & Ink
 img: /img/artwork/thumb-imagine.jpg

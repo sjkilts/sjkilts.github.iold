@@ -8,6 +8,7 @@ body.body {
 
 .content-wrapper {
     background: $white;
+    min-height: 99.5vh;
     //margin: 0 auto;
     //display: block;
 }
@@ -72,6 +73,7 @@ color: $theme-color;
 .site-nav {
 float: right;
 line-height: $nav-height;
+}
 .trigger {
 ul {
 line-height: 3.33rem;
@@ -87,7 +89,6 @@ line-height: $base-line-height;
 &:not(:first-child) {
 margin-left: 10px;
         }
-    }
 @include media-query($on-palm) {
 //position: fixed;
 top: 0px;
@@ -124,12 +125,6 @@ padding-top: 1.5rem;
 padding-bottom: 4.20rem;
 line-height: 3em;
 z-index: 25;
-@include media-query($on-palm) {
-display: inline;
-a {
-display: block;
-        }
-    }
 h1{
 color: $theme-color;
 font-size:75px;
@@ -166,7 +161,6 @@ border-bottom: 2px dotted $text-color;
 padding-bottom: 2rem;
 line-height: 2.33rem;
 margin: 0 auto;
-<<<<<<< HEAD
 margin-right: 5em;
 @include media-query($on-laptop){
 margin-right: 3em;
@@ -183,22 +177,9 @@ color: $text-color;
 padding-right: 0;
 padding: 0;
 border-bottom: 2px dotted $text-color;
-display: inline !important;
-                }
-            }
-=======
-margin-right: 1em;
-& a {
-font-style: inherit;
-padding-right: 0;
-border-bottom: 2px dotted $text-color;
-display: inline !important;
-    }
-}
 @include media-query($on-palm) {
-a {
-display: block;
->>>>>>> c6e53511e5801f798fecd4a9bf948e7e2df886b2
+display: inline;
+            }
         }
     }
 }
@@ -208,7 +189,9 @@ display: block;
  */
 footer.site-footer {
 border-top: 0;
-
+// position: absolute;
+// bottom: 0;
+width: 100%;
 & p {
 text-align: center;
 margin: 0 auto;
@@ -216,27 +199,22 @@ color: $text-color;
 opacity: 0.75;
 line-height: 2.5rem;
 }
-
 & a {
 color: $fuchsia;
 border-bottom: none;
 }
-
 & img {
 display: block;
 margin: 0 auto;
 padding: 25px 0;
 height: 150px;
 }
-
 & div.footer-wrapper {
 margin: 0 auto;
-
 & ul.links {
 text-align: center;
 padding-bottom: 65px;
 margin: 0 auto;
-
 & li {
 display: inline;  
 text-align: center;
@@ -246,11 +224,9 @@ font-family: 'Source Sans Pro', sans-serif;
 font-size: 1.33rem;
 font-weight: 300;
 letter-spacing: .066rem;
-
 // & .is-active { // not sure why this isn't working
 //  font-weight: 400;
 // }
-
 & a:hover {
 font-weight: 400;
 text-decoration: none;
@@ -315,6 +291,7 @@ color: $theme-color;
  */
 .page-content {
 padding: 100px 0; /* VERTICAL PADDING FOR TITLE ON EVERY PAGE */
+min-height: 22em;
 }
 .page-heading {
 font-size: 20px;
@@ -541,21 +518,7 @@ display: block;
  * Sidebar
  *********** */
 
- div.main {
-<<<<<<< HEAD
-// max-width: 1000px;
-// margin: 0 auto;
-// position: relative;
-// display: block;
-// padding: 100px 0;
-=======
-max-width: 1000px;
-margin: 0 auto;
-position: relative;
-display: block;
-padding: 100px 0;
->>>>>>> portfolio page redesign & content updates
-& div.sidebar {
+div.sidebar {
 position: fixed;
 margin-top: 1.88em;
 padding-top: 100px;
@@ -564,29 +527,20 @@ top: 0px;
 float: left;
 width: 270px;
 z-index: 1;
-<<<<<<< HEAD
 @include media-query ($on-palm) {
 display: none;
     }    
-=======
->>>>>>> portfolio page redesign & content updates
   }
-}
 
 /**
  Updated portfolio page styles
  */
 div.content-main {
-<<<<<<< HEAD
 //padding-left: 50px;
-=======
-padding-left: 50px;
->>>>>>> portfolio page redesign & content updates
 margin-left: 280px;
 padding-top: 2.75em;
 margin-top: -10px;
 overflow: hidden;
-<<<<<<< HEAD
 @include media-query ($on-palm) {
 margin: 0 auto;
     } 
@@ -603,12 +557,6 @@ margin-left: -.5%;
 list-style-type: none;
 display: inline-block;
 width: 30%;
-=======
-& li {
-list-style-type: none;
-display: inline-block;
-width: 28.6%;
->>>>>>> portfolio page redesign & content updates
 position: relative;
 margin-left: 1.5%;
 margin-bottom: 1.5%;
@@ -616,30 +564,89 @@ float: left;
 height: auto;
 display: inline-block;
 overflow: hidden;
-<<<<<<< HEAD
 // @include media-query($on-small){
 // width: calc(400px - (#{$horizontal-spacing-unit} * 2));
 // max-width: 200px;
 //         }
-=======
->>>>>>> portfolio page redesign & content updates
+    }
 & a {
 border: none;
 opacity: 1.0;
+    }
 & img {
-width: 100%;
 max-width: 100%;
             }
 & div.thumb {
 // width: 200px;
 // height: 200px;
 // background-image: url(http://placehold.it/200x200);
-            }
-        }
     }
 }
 
 
+/** 
+ * Forms **********************************************************
+*/
+form {
+& li {
+list-style-type: none;
+    }
+& span.form-sub-label-container { }
+& input {
+padding-left: calc(1vw + 1em);
+width: calc(92% - 1em);    
+border: 1px solid $grey-color-light !important;
+line-height: 2.5;
+font-size: 1em;
+    }
+& label {
+line-height: 1.75;
+padding-top: calc(.75vw + .5em);
+display: inline-block;
+    }
+& a {
+color: $white !important;
+border: none;
+    }
+& textarea {
+padding: 1em 0 0 0;
+padding-left: calc(1vw + 1em);
+width: calc(92% - 1em);
+border: 1px solid $grey-color-light;
+font-size: 1em;
+    }
+& select {
+height: 2.5em;
+width: calc(92% - 1em);
+padding: 1px 0 0 0;
+padding-left: calc(1vw + 1em);
+margin: 0 0 1px 0;
+border: 1px solid $grey-color-light;
+font-size: 1em;
+    }
+& button {
+background-color: $theme-color;
+color: $white;
+font-family: 'Lora', serif;
+border: 1px solid $grey-color-light;
+width: calc(92% - 1em);
+line-height: 2.5;
+margin-top: calc(5vw + 1em);
+font-size: 1em;
+font-weight: bold;
+letter-spacing: 1.25px;
+    }
+& div.form-error-message {
+font-style: italic;
+color: $fuchsia;
+&:before {
+content: "*";
+    }
+& img {
+display: none;
+        }
+    }
+}
 
 
 

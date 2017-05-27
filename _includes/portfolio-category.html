@@ -1,0 +1,19 @@
+<ul>
+{% assign project = site.portfolio | group_by:"category" %}
+{% for p in project %}
+	{% if p.name == page.title %}
+		{% for work in p.items reversed %}
+			<li>
+		        {% if work.redirect %}
+		            <a href="{{ work.redirect }}" target="_blank">
+		            	<img class="" src="{{ work.img }}"/>
+		        {% else %}
+		            <a href="{{ site.baseurl }}{{ work.url }}">
+		            	<img class="" src="{{ work.img }}"/>
+		            </a>
+		        {% endif %}
+		    </li>
+		{% endfor %}
+	{% endif %}
+{% endfor %}
+</ul>

@@ -5,7 +5,7 @@ date:   2017-03-07 01:39:20 -0800
 description: something about the rich history of climbing & how it and other outdoor activities are so ingrained into our State and National Parks
 category: outside
 tags: [climbing, artwork, watercolor & ink]
-published: no
+published: yes
 ---
 
 *[intro paragraph]* so many of my great memories are set in state and national parks & forests. These places are a treasure and need to be recognized and protected. Conservation in America is unique and beautiful etc … 

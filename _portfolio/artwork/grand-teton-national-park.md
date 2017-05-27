@@ -1,5 +1,5 @@
 ---
-layout: sidebar
+layout: detail
 title: Grand Teton National Park
 description: Watercolor & Ink
 img: /img/artwork/thumb-teton.jpg

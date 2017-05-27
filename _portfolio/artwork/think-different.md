@@ -1,5 +1,5 @@
 ---
-layout: sidebar
+layout: detail
 title: Think Different
 description: Lettering, Ink
 img: /img/artwork/thumb-think-different.jpg
