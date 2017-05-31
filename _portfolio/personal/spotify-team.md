@@ -6,7 +6,7 @@ img: /img/personal-projects/thumb-spotify-team.jpg
 date: 2017-07-15
 category: personal
 personal: 
-published: yes
+published: no
 ---
 testing portfolio page layout with more than 3 client projects
 
