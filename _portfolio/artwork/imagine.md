@@ -2,6 +2,7 @@
 layout: detail
 title: Imagine
 description: Lettering & Calligraphy, Watercolor & Ink
+sidebar: An existential statement made by Picasso that I like to think about
 img: /img/artwork/thumb-imagine.jpg
 category: artwork
 client: 

@@ -8,3 +8,15 @@ category: personal
 personal: 
 published: no
 ---
+
+Let this just be all the TW posters
+
+Spring into Writing
+
+Submissions
+
+NoDAPL
+
+etc
+
+< btw this is the appropriate use of description metadata

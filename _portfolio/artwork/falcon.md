@@ -4,6 +4,7 @@ title: Falcon
 description: Watercolor
 img: /img/artwork/thumb-falcon.jpg
 date: 2013-11-20 
+sidebar:
 category: artwork
 client:
 personal:
