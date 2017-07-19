@@ -8,20 +8,23 @@
     <nav class="site-nav" id="top">
 
       <button class="mobile-nav">
-        <a href="#mobile-nav">^</a>
+        <a href="#mobile-nav"><img src="/img/icon_down-to-menu.svg"></a>
       </button>
 
       <div class="trigger">
 
         <ul>
+          <li class=""><a class="page-link" href="/about/">about</a></li>
+          <li class=""><a class="page-link" href="/work/">work</a></li>
+          <li class=""><a class="page-link" href="/contact/">contact</a></li>
         
-        {% for page in site.pages %}
-          {% if page.title %}
+        <!-- {% for page in site.pages %}
+          {% if page.title == resume %}
+          {% elsif page.title == climbing %}
+          {% elsif page.title %}
           <li class=""><a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
           {% endif %}
-        {% endfor %}
-<!-- 
-          <li><a class="page-link" target="_blank" href="https://scottkilts.typeform.com/to/ahYYrD">contact</a> -->
+        {% endfor %} -->
 
         </ul>
 

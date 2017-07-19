@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="716px" height="971px" viewBox="0 0 716 971" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 3 Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-3-Copy" transform="translate(354.000000, 484.000000) rotate(180.000000) translate(-354.000000, -484.000000) translate(-126.000000, -58.000000)" fill="#DB0791">
+            <polyline id="&lt;-copy" points="462.360232 855 259.434922 512.671429 318.218841 512.671429 476.049638 774.115684 633.075175 512.671429 693.469613 512.671429 492.154821 855"></polyline>
+            <path d="M809,1001 L143,1001" id="Line" stroke="#DB0791" stroke-width="50" stroke-linecap="square"></path>
+            <path d="M476.333333,458.667124 L476.333333,82.6134921" id="Line-Copy" stroke="#DB0791" stroke-width="55" stroke-linecap="square"></path>
+        </g>
+    </g>
+</svg>

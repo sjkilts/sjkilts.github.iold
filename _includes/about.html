@@ -1,0 +1,29 @@
+<div class="sidebar">
+
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+    <h5 class="post-description">{{ page.description }}</h5>
+  </header>
+
+  {% for resume in site.data.resume %}
+
+  <span class="resume-info">
+    <img>   
+
+    <span class="i">
+      <span>
+        <a href="mailto:{{ site.email }}">{{ resume.email }}</a>  <br>
+        <a href="https://github.com/{{ resume.github }}">github.com/{{ resume.github }}</a>
+      </span> 
+
+  {% endfor %}
+
+<!--       <ul>
+        <li><a href="../resume">Resume</a></li>
+        <li><a href="../climbing">Climbing Resume</a></li>
+      </ul> -->
+    </span>
+
+  </span>
+
+</div>

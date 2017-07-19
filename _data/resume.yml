@@ -1,13 +1,18 @@
 ---
 - name: Scott Kilts
   email:  hello@scottkilts.com
-  github: sjkilts
+  github: sjkilts 
 
   employment:
   - employer:  Scott Kilts Design
-    title: Owner / Operator
+    title:  Owner / Operator
     date:  2014-Present
     description: Freelance design, illustration and web development.	
+
+  - employer:  Stone Gardens 
+    title:  Group Instructor
+    date:  2017-Present
+    description:  Maintain a level of safety, make sure everyone has a good time.
 
   - employer:  Hosting Puget Sound
     title:   Web Host Manager

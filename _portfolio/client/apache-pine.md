@@ -1,30 +1,51 @@
 ---
 layout: detail
 title: Apache Pine
-description: All the things
+description: Marketing & Creative Direction
 img: /img/client/thumb-ap.jpg
 client: Apache Pine
-sidebar: An outdoor lifestyle brand, I helped Apache Pine define their visual identity and web presence. I also had the pleasure of designing various products and additional promotional materials
+sidebar: An outdoor lifestyle brand, I helped Apache Pine define their visual identity and web presence. I also had the pleasure of designing several products and accompanying promotional materials
 date: 2016-07-23 5:26
 category: client
-published: no
+published: Yes
 ---
 
-What did I do for AP?
+![Apache Pine Logo](/img/client/apache-pine-tree-stack.jpg)
 
-Well...
+![The Ridge](/img/client/ridge.jpg)
 
-Email marketing
+![Sqwatch](/img/client/sqwatch.jpg)
 
-branding
+![True North Collection](/img/client/true-north-collection.png)
 
-visual identity
+![True North](/img/client/true-north.png)
 
-website identity
+![Watch Box](/img/client/watch-box.jpg)
 
-product design
+![Elements Pattern BW](/img/client/pattern-bw.jpg)
 
-social media
+![Elements Pattern](/img/client/pattern-elements.jpg)
 
-promotional media & materials
+![Gaiter](/img/client/gaiter.png)
 
+![Apache Pine Promo](/img/client/ap.jpg)
+
+![New Watches Promo](/img/client/promo-1.jpg)
+
+![Sqwatch Promo](/img/client/promo-2.jpg)
+
+![Email Promo](/img/client/email-promo.jpg)
+
+![Booklet](/img/client/booklet.png)
+
+<!-- ![Web Design](/img/client/responsive.jpg)
+ -->
+<!--
+Other things you should write about:
+# ui/ux
+## responsive website design
+- wireframes
+- personas
+- user testing
+- a/b testing
+-->

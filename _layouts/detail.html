@@ -1,6 +1,10 @@
 ---
 layout: default
 ---
+<nav class="nav-icon">
+<a href="{{ site.url }}/work"><img alt="back to work" src="/img/icon_back-to-menu.svg" class="grid-icon"></a>
+</nav>
+
 {% include sidebar.html %}
 
 <div class="content-main">
@@ -9,5 +13,17 @@ layout: default
 
 <!-- {% include portfolio-pagination.html %} -->
 
-</div>
+<!-- Attempting to sort out a 'load more' button or auto loading of additional content on scroll
+< taken from: https://stackoverflow.com/questions/14035180/jquery-load-more-data-on-scroll
+<
+<script type="jQuery">
+$(window).scroll(function() {
+var end = $("#BottomThing").offset().top; 
+var viewEnd = $(window).scrollTop() + $(window).height(); 
+var distance = end - viewEnd; 
+if (distance < 300) { // DO LOAD
+	}
+});
+</script> -->
 
+</div>

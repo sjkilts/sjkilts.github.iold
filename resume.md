@@ -1,18 +1,18 @@
 ---
-layout: page
+layout: about
 title: resume
 permalink: /resume/
 ---
 
 {% for resume in site.data.resume %}
 
-<span class="resume-info">
+<!-- span class="resume-info">
 	<img>   
 	<span>
 		[{{ resume.email }}](mailto:{{ site.email }})  
 		[github.com/{{ resume.github }}](https://github.com/{{ resume.github }}) 
 	</span> 
-</span>
+</span> -->
 
 # employment
 

@@ -1,0 +1,518 @@
+---
+- name: Scott Kilts
+  email:  hello@scottkilts.com
+  github: sjkilts
+
+  climbs:
+  - range:  Wasatch Range
+
+    areas:  
+    - area:  Parley's Canyon
+
+      crags:  
+      - crag:  The Bungalow
+
+        climb:  
+        - route:  Learner's Permit
+          grade:  '5.6'
+          date:  11/2012
+          style:  Sport, TR
+        
+        - route:  Two Shovels
+          grade:  '5.7+'
+          date:  11/2012
+          style:  Sport, TR
+
+        - route:  White Noise
+          grade:  '5.6'
+          date:  11/2012
+          style:  Sport, TR
+
+        - route:  The Dugout
+          grade:  '5.9-'
+          date:  11/2012
+          style:  Sport, TR
+
+        - route:  Gas Hike
+          grade:  '5.8 PG13'
+          date:  6/2014
+          style:  Sport
+
+      - crag:  Iron Curtain Wall
+
+        climb:  
+        - route:  Up In A Flash
+          grade:  '5.8'
+          date:  2/2013
+          style:  Sport, TR
+
+        - route:  Motley Cruise
+          grade:  '5.9'
+          date:  2/2013
+          style:  Sport, TR
+
+        - route:  Pick Pocket
+          grade:  '5.8'
+          date:  2/2013
+          style:  Sport, TR
+
+        - route:  Mutation
+          grade:  '5.9'
+          date:  2/2013
+          style:  Sport, TR
+
+        - route:  Gotta Be Tall
+          grade:  '5.9'
+          date:  2/2013
+          style:  Sport, TR
+
+      - crag:  Riptide Wall
+
+        climb:  
+        - route:  "'Lectric Granny"
+          grade:  '5.9+'
+          date:  6/2014
+          style:  Sport, TR
+
+        - route:  Edge of the Sea
+          grade:  '5.10a'
+          date:  6/2014
+          style:  Sport, TR
+
+        - route:  Riptide
+          grade:  '5.9'
+          date:  6/2014
+          style:  Sport
+
+    - area:  Little Cottonwood Canyon
+
+      crags:  
+      - crag:  Purple Wall
+
+        climb:  
+        - route:  The Win'o
+          grade:  '5.9-'
+          date:  11/2013
+          style:  Sport, TR
+
+        - route:  Pump It Until Purple
+          grade:  '5.9'
+          date:  11/2013
+          style:  Sport, TR
+
+      - crag:  Coffin Buttress
+
+        climb:  
+        - route:  The Coffin
+          grade:  '5.9'
+          date:  3/2014
+          style:  Trad, TR
+
+        - route:  Rightside Variation
+          grade:  '5.9+'
+          date:  3/2014
+          style:  Trad, TR
+
+      - crag:  Crescent Crack Buttress
+
+        climb:  
+        - route:  Crescent Crack
+          grade:  '5.7'
+          date:  6/2014
+          style:  Trad
+          pitches: '2'
+
+        - route:  Crescent Direct
+          grade:  '5.9'
+          date:  9/2014
+          style:  Trad, TR
+          pitches: '2'
+
+        - route:  Crack in the Woods > Hand Jive
+          grade:  '5.9'
+          date:  9/2014
+          style:  Trad, TR
+          pitches: '2'
+
+      - crag:   Beckey’s Wall Area
+
+        climb:  
+        - route:  Beckey's Wall
+          grade:  '5.7'
+          date:  7/2015
+          style:  Trad
+          pitches: '3'
+
+      - crag:  Pentapitch Area
+
+        climb:  
+        - route:  Pentapitch
+          grade:  '5.8'
+          date:  7/2015
+          style:  Trad
+          pitches: '2'
+
+    - area:  Big Cottonwood Canyon
+
+      crags:  
+      - crag:  Dogwood Crag
+
+        climb:  
+        - route:  A Modest Man from Mandrake
+          grade:  '5.9'
+          date:  10/2013
+          style:  Sport, TR
+
+        - route:  Unknown West of Mandrake
+          grade:  '5.8'
+          date:  10/2013
+          style:  Sport, TR
+
+        - route:  Little Thing
+          grade:  5.8-
+          date:  10/2013
+          style:  Sport
+
+        - route:  Unforgiven
+          grade:  5.9+
+          date:  10/2013
+          style:  Sport, TR
+
+        - route:  I Think I'm Going Bald
+          grade:  5.9-
+          date:  4/2014
+          style:  Sport, TR
+
+        - route:  Haven't A Clue
+          grade:  '5.8'
+          date:  4/2014
+          style:  Sport
+
+        - route:  On the Skids
+          grade:  '5.8'
+          date:  4/2014
+          style:  Sport
+
+        - route:  Take Me to the River
+          grade:  '5.7'
+          date:  4/2014
+          style:  Sport
+
+        - route:  Hyper Gamma Spaces
+          grade:  5.9 R
+          date:  6/2014
+          style:  Sport, TR
+
+        - route:  Quartzite Sans Stainless
+          grade:  '5.9'
+          date:  6/2014
+          style:  Sport
+
+      - crag:  JHCOB Wall
+
+        climb:  
+        - route:  Outside Corner
+          grade:  '5.7'
+          date:  7/2014
+          style:  Trad
+          pitches: '3'
+
+      - crag:  Glass Ocean and Environs
+
+        climb:  
+        - route:  High Dive
+          grade:  5.9+
+          date:  8/2014
+          style:  Trad
+          pitches: '2'
+
+      - crag:   Salt Lake Slips
+
+        climb:  
+        - route:  Roll The Bones
+          grade:  '5.6'
+          date:  11/2016
+          style:  Sport
+
+        - route:  Italian Arête
+          grade:  '5.6'
+          date:  11/2016
+          style:  Sport
+          ptiches: '2'
+          notes:  Climbed with Michael, probably his second multi-pitch
+
+        - route:  Witchhunt
+          grade:  5.10a
+          date:  11/2016
+          style:  Sport, TR
+          notes:  Followed random climber up this and Salem's Lot
+
+        - route:  Salem's Lot
+          grade:  5.10b
+          date:  11/2016
+          style:  Sport, TR
+
+        - route:  Maudlin
+          grade:  '5.7'
+          date:  11/2016
+          style:  Sport
+
+        - route:  Forgotten Ambition
+          grade:  5.9-
+          date:  11/2016
+          style:  Sport
+
+        - route:  High Fructose Corn Syrup
+          grade:  '5.8'
+          date:  11/2016
+          style:  Sport
+
+        - route:  Thieving Magpie
+          grade:  '5.7'
+          date:  11/2016
+          style:  Sport
+
+        - route:  Entre Nous
+          grade:  5.8+
+          date:  11/2016
+          style:  Sport
+
+    - area:  Bell's Canyon
+
+      crags:  
+      - crag:  Middle Bell Tower
+
+        climb:  
+        - route:  Arm and Hammer
+          grade: III 5.10a A0
+          date:  8/2016
+          style:  Trad
+          pitches: '6'
+
+    - area:  Rock Canyon
+
+      crags:  
+      - crag:  Layer Cake
+
+        climb:  
+        - route:  Ledgarithm
+          grade:  II 5.9
+          date:  8/2016
+          style:  Sport
+
+    - area:  Ogden
+
+      crags:  
+      - crag:  Utahnics Wall
+
+        climb:  
+        - route:  Diamondback
+          grade:  '5.9'
+          date:  3/2016
+          style:  Sport
+
+        - route:  Utahnics
+          grade:  5.9+
+          date:  3/2016
+          style:  Sport
+
+        - route:  Holy Moroni
+          grade:  '5.8'
+          date:  3/2016
+          style:  Sport
+
+        - route:  Oh My Nephi
+          grade:  '5.8'
+          date:  3/2016
+          style:  Sport
+
+        - route:  Nephi Direct
+          grade:  '5.10'
+          date:  3/2016
+          style:  Sport
+
+      - crag:  9th Street
+
+        climb:  
+        - route:  Shino
+          grade:  5.8+
+          date:  3/2016
+          style:  Sport
+
+        - route:  Bring Your Lunch
+          grade:  5.10d
+          date:  3/2016
+          style:  Sport
+
+        - route:  "'That's What She Said'"
+          grade:  '5.9'
+          date:  3/2016
+          style:  Sport
+
+        - route:  Cub Scout Corner
+          grade:  '5.6'
+          date:  3/2016
+          style:  Sport
+
+        - route:  Midnight Cowboy
+          grade:  5.10d
+          date:  3/2016
+          style:  Sport
+
+        - route:  That's a Noyce Rock
+          grade:  '5.7'
+          date:  3/2016
+          style:  Sport
+
+      - crag:  Mt. Ogden
+
+        climb:  
+        - route:  The Gray Slabs
+          grade:  III 5.9
+          date:  7/2016
+          style:  Sport
+          pitches: '10'
+
+      - crag:  29th Street
+
+        climb:  
+        - route:  Little Pile of Choss
+          grade:  '5.8'
+          date:  11/2016
+          style:  Sport
+
+        - route:  Loose Shingles
+          grade:  5.10b
+          date:  11/2016
+          style:  Sport
+
+        - route:  8-Ball Corner Pocket
+          grade:  '5.8'
+          date:  11/2016
+          style:  Sport
+
+        - route:  Overlooked
+          grade:  5.10a
+          date:  11/2016
+          style:  Sport
+
+        - route:  Safety Goggles
+          grade:  '5.9'
+          date:  11/2016
+          style:  Sport
+
+  - range:  East Idaho
+
+    areas:  
+    - area:  Bear Lake Valley
+
+      crags:  
+      - crag:  Paris Ice Caves
+
+        climb:  
+        - route:  Ice Chimney
+          grade:  '5.6'
+          date:  7/2014
+          style:  Trad
+          notes: I'm pretty sure this is the climb out of the actual ice cave to the surface
+
+        - route:  Unnamed
+          grade:  '5.7'
+          date:  7/2014
+          style:  TR
+          notes: Did this with Sam, Michael, Jed & the rest of the fam
+
+  - range:  Uinta Mountains
+
+    areas:  
+    - area:  Ruth Lake
+
+      crags:  
+      - crag:  Good Medicine Wall
+
+        climb:  
+        - route:  Sun Dog
+          grade:  '5.7'
+          date:  5/2013
+          style:  Sport
+
+        - route:  Fire Water
+          grade:  '5.7'
+          date:  5/2013
+          style:  Sport
+
+        - route:  Peace Treaty
+          grade:  '5.9'
+          date:  5/2013
+          style:  Sport
+
+        - route:  Sacred Hoop
+          grade:  5.10a
+          date:  8/2013
+          style:  Sport
+
+        - route:  Black Elk
+          grade:  5.10a
+          date:  7/2014
+          style:  Sport
+
+        - route:  Tribal Warfare
+          grade:  5.10b
+          date:  7/2014
+          style:  Sport
+
+    - area:  Wall Lake
+
+    - area:  
+
+    - area:  
+
+  - range:  Cascade Mountains
+
+    areas:  
+    - area:  Little Si
+
+      crags:  
+      - crag:  
+
+        climb:  
+        - route:  
+          grade:  
+          date:  
+          style:  
+
+    - area:  Exit 38
+
+    - area:  Leavenworth
+
+    - area:  Peshastin Pinnacles
+
+    - area:  Index
+
+  - range:  Olympic Mountains
+
+    areas:  
+    - area:  
+
+      crags:  
+      - crag:  
+
+        climb:  
+        - route:  
+          grade:  
+          date:  
+          style:  
+
+  - range:  Frenchman Coulee
+
+    areas:  
+    - area:  Frenchman Coulee
+
+      crags:  
+      - crag:  The Feathers
+
+        climb:  
+        - route:  
+          grade:  
+          date:  
+          style:  
