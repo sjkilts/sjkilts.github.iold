@@ -579,7 +579,18 @@ margin-left: 0;
     }    
 & ul {
 margin-top: 20px;
-  }
+& a {
+color: $black;
+font-style: italic;
+opacity: 100;   
+border-bottom: 2px dotted $theme-color;
+//transition: all .3s ease;  //***********************transition
+&:hover {
+text-decoration: none;
+color: $theme-color;
+            }
+        }
+    }
 }
 
 /**
