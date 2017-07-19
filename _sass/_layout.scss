@@ -445,7 +445,7 @@ overflow: hidden;
 margin-left: 0;
 float: left !important;
 display: block;
-margin-top: calc(21em - 10vw); //26em
+// margin-top: calc(21em - 10vw); //26em
     }
 }
 .h3 {
@@ -568,18 +568,13 @@ top: 0px;
 float: left;
 width: calc(7.5em + 9vw);
 z-index: 0;
-@include media-query($on-laptop) {
-width: calc(11em + 9vw);    
-    }
 @include media-query ($on-laptop) {
 display: block;
-position: absolute;
+position: relative;
 width: calc(100% - 2em);
-margin-left: 0;
-    }    
-@include media-query ($on-palm) {
-height: auto;
-    }
+margin: 0;
+padding: 0;
+    } 
 & ul {
 margin-top: 20px;
 & a {
