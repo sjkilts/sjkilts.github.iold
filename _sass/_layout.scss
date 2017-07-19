@@ -577,6 +577,9 @@ position: absolute;
 width: calc(100% - 2em);
 margin-left: 0;
     }    
+@include media-query ($on-palm) {
+height: auto;
+    }
 & ul {
 margin-top: 20px;
 & a {
