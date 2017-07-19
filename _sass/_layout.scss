@@ -649,13 +649,20 @@ opacity: 1.0;
     }
 & img {
 max-width: 100%;
-            }
+    }
 & div.thumb {
 // width: 200px;
 // height: 200px;
 // background-image: url(http://placehold.it/200x200);
     }
 }
+
+li.grid {
+& a {
+border: none;
+    }
+}
+
 
 img.grid-icon {
 max-width: 35px; 

@@ -3,7 +3,7 @@
 {% for p in project %}
 	{% if p.name == page.title %}
 		{% for work in p.items reversed %}
-			<li>
+			<li class="grid">
 		        {% if work.redirect %}
 		            <a href="{{ work.redirect }}" target="_blank">
 		            	<img class="" src="{{ work.img }}"/>

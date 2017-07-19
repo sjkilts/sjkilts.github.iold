@@ -9,7 +9,7 @@ sidebar: As a designer, I strive to create beautiful legible work with loads of 
     {% for project in site.portfolio reversed %}
         {% if project.index == true %}
         {% else %}
-        <li>
+        <li class="grid">
             {% if project.redirect %}
                 {% include project-redirect.html %}
             {% else %}
