@@ -8,5 +8,6 @@ sidebar:
 category: artwork
 client:
 personal:
+published: no
 ---
 ![eye †hink so](/img/artwork/Eye-think-so-1200w.jpg)
