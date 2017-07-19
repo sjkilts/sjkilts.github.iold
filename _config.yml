@@ -22,7 +22,7 @@ repository: sjkilts/sjkilts.github.io
 
 # Build settings
 markdown: kramdown
-highlighter: pygments
+highlighter: rogue
 
 
 # Pagination
