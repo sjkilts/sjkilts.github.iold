@@ -21,8 +21,6 @@ twitter_username: twitter_username
 
 repository: sjkilts/sjkilts.github.io
 
-google_analytics: UA-103003274-1
-
 # Build settings
 markdown: kramdown
 highlighter: rouge
