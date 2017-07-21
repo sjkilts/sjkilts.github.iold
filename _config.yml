@@ -43,6 +43,7 @@ gems:
   - Jekyll-paginate
   - pygments
   - jekyll-coffeescript
+  - jekyll-sitemap
 
 exclude:
   - Gemfile
