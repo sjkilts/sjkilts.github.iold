@@ -10,12 +10,22 @@
 
     <hr>
   
-  {% for page in site.pages %}
+<!--   {% for page in site.pages %}
     {% if page.title %}
     <li class=""><a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
     <hr>
     {% endif %}
   {% endfor %}
+ -->
+
+      <li class=""><a class="page-link" href="/about/">about</a></li>
+      <hr>
+      <li class=""><a class="page-link" href="/work/">work</a></li>
+      <hr>
+      <li class=""><a class="page-link" href="/contact/">contact</a></li>
+      <hr>
+      <li class=""><a class="page-link" href="/resume/">resume</a></li>
+      <hr>
 
   </ul>
 
