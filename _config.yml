@@ -9,7 +9,8 @@ email: hello@scottkilts.com
 description: > # this means to ignore newlines until "baseurl:"
   Scott Kilts is a creative designer and developer located in Tacoma, WA. 
   Specializing in hand lettering, watercolor and research-based botique 
-  websites hand-crafted to provide an exceptional user experience. 
+  websites. 
+#hand-crafted to provide an exceptional user experience. 
 #baseurl: "www.scottkilts.com" # the subpath of your site, e.g. /blog
 url: "http://www.scottkilts.com" # the base hostname & protocol for your site, e.g. http://example.com
 
@@ -19,6 +20,8 @@ github_username:  sjkilts
 twitter_username: twitter_username
 
 repository: sjkilts/sjkilts.github.io
+
+google_analytics: UA-103003274-1
 
 # Build settings
 markdown: kramdown
