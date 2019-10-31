@@ -7,7 +7,7 @@ category: client
 client:
 personal:
 sidebar: A custom illustration and thank you card
-published: yes
+published: no
 ---
 ![Liz Sparrow](/img/artwork/liz_sparrow-1200w.jpg)
 

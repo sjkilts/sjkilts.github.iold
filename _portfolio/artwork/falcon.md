@@ -8,5 +8,6 @@ sidebar:
 category: artwork
 client:
 personal:
+published: yes
 ---
 ![Falcon](/img/artwork/Falcon-1200w.jpg)

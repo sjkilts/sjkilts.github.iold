@@ -7,40 +7,36 @@
   - employer:  Scott Kilts Design
     title:  Owner / Operator
     date:  2014-Present
-    description: Freelance design, illustration and web development.	
+    description: Freelance design, illustration and web development
 
   - employer:  Stone Gardens 
     title:  Group Instructor
     date:  2017-Present
-    description:  Maintain a level of safety, make sure everyone has a good time.
+    description:  Instruction of technical skills to climbers of all ages and abilities
 
   - employer:  Hosting Puget Sound
     title:   Web Host Manager
     date:  2016-2017
-    description:  Manage, update and support client websites.  
-                  Increased revenue and number of clients.
+    description:  Manage, update and support client websites
+                  Increased revenue and number of clients
 
   - employer:  M Agency
     title:   Designer / Developer
     date:  2016-2017
-    description:  Manage and coordinate a small team promoting client business using illustration, print and web design, development and UX strategies.
+    description:  Manage and coordinate a small team promoting client business using illustration, print and web design, development and UX strategies
 
   - employer:  Apache Pine
     title:   Design Director
     date:  2014-2016
-    description:  Design, development and marketing for an outdoor lifestyle brand.  
-                  Increased sales with updated branding, product designs, ux/ui research and one-to-one program. 
+    description:  Design, development and marketing for an outdoor lifestyle brand
+                  Increased sales with updated branding, product designs, ux/ui research and one-to-one program
 
   - employer:  Apple Inc.
     title:   CPU Advisor
     date:  2013-2014
-    description:  Friendly voice of Apple, providing troubleshooting, creative technical solutions, and support. Remotely manage time and projects.
+    description:  Friendly voice of Apple, providing troubleshooting, creative technical solutions, and support. Remotely manage time and projects
 
   education:  
-  - school:  University of Utah
-    field: Computer Science
-    degree:  BS - in progress
-    year:  '2018'
 
   - school:  University of Utah
     field: Human Factors Psychology
@@ -62,31 +58,23 @@
   - skill: Design
     icon:  /img/design-icon.png
 
-  - skill: Project Management
-    icon:  /img/project_management-icon.png
-
   - skill: Strategy
     icon:  /img/strategy-icon.png
 
-  highlight:  Strong ability to translate technical ideas into easily-understood concepts
+  highlight:  Strong ability to problem solve
 
   tools: >
-          Sketch, Sublime Text. Github.    
-            Adobe Illustrator, InDesign, Photoshop.    
-              HTML5, CSS, JavaScript.      
-                JQuery, Sass, Liquid.    
-                  PHP, Ruby.    
-                    Troubleshooting, problem solving.   
+          Sketch, Sublime Text. Github,
+            Adobe Illustrator, InDesign, Photoshop, 
+              HTML5, CSS, JavaScript,
+                JQuery, Sass, Liquid,
+                  PHP, Ruby,
+                    Troubleshooting
 
   interests: >
-              Reading. Climbing, skiing,   
-                downhill skateboarding,   
-                  slackline. Travel.  
-                    Being outdoors.  
-                      Design, typography.  
-                        Aesthetics, contrast.  
-                          Ink and watercolor,  
-                            calligraphy, sign painting.  
-                              Keeping up with the internet.  
-                                Mountains, waves.  
-                                  The spirit of adventure!
+              reading, climbing, skiing,        
+                 time spent outdoors,      
+                    design, typography, aesthetics,   
+                      contrast, ink and watercolor,       
+                          calligraphy, sign painting,        
+                            the spirit of adventure

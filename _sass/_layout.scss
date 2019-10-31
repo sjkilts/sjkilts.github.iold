@@ -676,15 +676,25 @@ z-index: 99999;
 background-color: $white;
 padding-top: 7px;
 padding-right: 7px;
-&:active :hover {
+&:active {
 color: $highlight-color;
-    }  
+        }  
+&:hover {
+color: $highlight-color;
+        }
 & a {
 border-bottom: none;
 color: $text-color;
 z-index: 99999;
+&:active {
+color: $highlight-color;
+        }
+&:hover {
+color: $highlight-color;
+        }
     }
 }
+
 
 /** 
  * Forms **********************************************************

@@ -8,5 +8,6 @@ sidebar: The notorious Biggie Smalls
 date: 2014-06-20
 client:
 personal:
+published: no
 ---
 ![Notorious](/img/artwork/Notorious-1200w.jpg)
