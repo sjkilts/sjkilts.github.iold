@@ -302,6 +302,9 @@ color: $theme-color;
 .page-content {
 padding: 100px 0; /* VERTICAL PADDING FOR TITLE ON EVERY PAGE */
 min-height: 22em;
+    @include media-query ($on-small) {
+        padding: 0 0 100px 0;
+    }
 }
 .page-heading {
 font-size: 20px;
