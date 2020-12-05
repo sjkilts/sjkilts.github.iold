@@ -11,8 +11,9 @@
         <ul>
         {% for page in site.pages %}
           {% if page.title == resume %}
+          <!-- {% elsif page.title %} -->
+            <li class=""><a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
           {% elsif page.title %}
-          <li class=""><a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
           {% endif %}
         {% endfor %}
         </ul>
