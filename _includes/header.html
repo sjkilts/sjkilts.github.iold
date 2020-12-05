@@ -7,16 +7,8 @@
 
     <nav class="site-nav" id="top">
 
-      <!-- <button class="mobile-nav">
-        <a href="#mobile-nav"><img src="/img/icon_down-to-menu.svg"></a>
-      </button> -->
-
       <div class="trigger">
 
-        <!-- <ul>
-          <li class=""><a class="page-link" href="/about/">about</a></li>
-          <li class=""><a class="page-link" href="/resume/">resume</a></li>
-          <li class=""><a class="page-link" href="/work/">work</a></li>        -->  
         <ul>
         {% for page in site.pages %}
           {% if page.title == resume %}
@@ -25,7 +17,6 @@
           {% endif %}
         {% endfor %}
         </ul>
-       <!-- </ul> -->
 
       </div>
     </nav> 
