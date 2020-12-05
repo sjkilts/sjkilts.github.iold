@@ -1,6 +1,8 @@
 <div class="header-bar">
 	
-	{% include resume.md %}
+	{% if page.resume %}
+		{% include page.resume %}
+	{% endif %}
 	
 <!--
 	
