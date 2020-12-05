@@ -2,20 +2,19 @@
 
   <div class="wrapper">
     
-    <!-- <a class="page-link logo" href="{{ site.baseurl }}/">•</a> -->
+   <a class="page-link logo" href="{{ site.baseurl }}/">•</a>
 
     <nav class="site-nav" id="top">
 
       <div class="trigger">
 
         <ul>
-        {% for page in site.pages %}
+        <!-- {% for page in site.pages %} -->
           {% if page.title == resume %}
           <!-- {% elsif page.title %} -->
             <li class=""><a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
-          {% elsif page.title %}
           {% endif %}
-        {% endfor %}
+        <!-- {% endfor %} -->
         </ul>
 
       </div>
