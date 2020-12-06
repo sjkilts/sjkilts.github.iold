@@ -110,17 +110,17 @@ display: none;
 nav#mobile-nav {
 display: none;
 @include media-query($on-small) {
-display: inline;
-& ul {
-margin: 0;
-padding-bottom: calc(5vw + .5em);
-    }
-& li {
-display: block;
-text-align: left;
-padding: .5em 0;
-margin-left: calc(2vw + 1em)
-    }
+display: none; //inline;
+//& ul {
+//margin: 0;
+//padding-bottom: calc(5vw + .5em);
+//   }
+//& li {
+//display: block;
+//text-align: left;
+//padding: .5em 0;
+//margin-left: calc(2vw + 1em)
+//    }
 }
 }
 // /mobile-menu
