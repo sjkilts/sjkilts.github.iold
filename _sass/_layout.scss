@@ -615,11 +615,11 @@ overflow: visible;
 max-width: 98%;
 & li img {
 max-height: 200px;
-max-width: 200px;
+//max-width: 200px;
     } 
-img.grid-icon {
-max-width: 35px; 
-display: inline;
+//img.grid-icon {
+//max-width: 35px; 
+//display: inline;
     }
 & p {
 margin: 0 auto;
@@ -628,9 +628,9 @@ padding-top: calc(2em - .5vw);
     }
 }
 & ul {
-@include media-query ($on-laptop) {
+//@include media-query ($on-laptop) {
 //margin-left: -.75%;
-width: 105%;
+//width: 105%;
         }    
 @include media-query ($on-small) {
 margin-left: -.5%;
