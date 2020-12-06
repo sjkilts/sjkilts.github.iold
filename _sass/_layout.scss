@@ -675,12 +675,12 @@ display: inline;
 }
 
 nav.nav-icon {
-position: fixed;
-top: calc(136px - 2vw);
-z-index: 99999;
-background-color: $white;
-padding-top: 7px;
-padding-right: 7px;
+//position: fixed;
+//top: calc(136px - 2vw);
+//z-index: 99999;
+//background-color: $white;
+//padding-top: 7px;
+//padding-right: 7px;
 &:active {
 color: $highlight-color;
         }  
