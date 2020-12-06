@@ -2,7 +2,7 @@
 layout: detail
 title: Apache Pine
 description: Marketing & Creative Direction
-img: /img/client/thumb-ap.jpg
+img: /img/client/apache-pine-tree-stack.jpg
 client: Apache Pine
 sidebar: An outdoor lifestyle brand, I helped Apache Pine define their visual identity and web presence. I also had the pleasure of designing several products and accompanying promotional materials
 date: 2016-07-23 5:26
