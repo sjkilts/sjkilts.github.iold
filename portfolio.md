@@ -2,7 +2,7 @@
 layout: sidebar
 title: work
 permalink: /work/
-sidebar: A selection of personal and client work. Filter using the buttons below
+sidebar: A selection of personal and client work
 ---
 
 <ul>
