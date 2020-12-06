@@ -6,7 +6,7 @@ img: /img/personal-projects/thumb-hello.jpg
 category: personal
 client:
 personal:
-published: yes
+published: no
 ---
 ![Hello Theme](/img/personal-projects/hello-theme-1200w.jpg)
 
