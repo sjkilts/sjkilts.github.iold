@@ -603,36 +603,24 @@ color: $theme-color;
  */
 
 div.content-main {
-	// display: inline;
-	//@include media-query ($on-laptop) {
-	//	margin-top: calc(23em - 10vw);
-		//& img {
-		//	max-height: 200px;
-		//}
-		//& li {
-		//	width: 
-    		//}
-	//}
-	//@include media-query ($on-small) {
-	//	margin-top: 0;
-	//}
-	& ul {  
+	& ul {
+	margin: 0;
+	height: 100%;
+	list-style-type: none;
 		@include media-query ($on-small) {
 			margin-left: -.5%;
 		}
-        }	
-    	//}
-	//& li {
-	//list-style-type: none;
-	//display: inline-block;
-	//margin-left: 1.5%;
-	//margin-bottom: 1.5%;
-	//float: left;
-	//overflow: hidden;
-    	//}
+	}
+	& img {
+	display: block;
+	width: auto;
+	height: auto;
+	max-width: 100%;
+	max-height: 90%;
+	}
 	& a {
 	opacity: 1.0;
-    }
+	}
 }
 
 li.grid {
