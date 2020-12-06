@@ -605,9 +605,9 @@ color: $theme-color;
 
 
 div.content-main {
-	display: inline;
+	// display: inline;
 	@include media-query ($on-laptop) {
-		margin-top: calc(23em - 10vw);
+	//	margin-top: calc(23em - 10vw);
 		& img {
 			max-height: 200px;
 		}
@@ -615,9 +615,9 @@ div.content-main {
 			width: 30%    
     		}
 	}
-	@include media-query ($on-small) {
-		margin-top: 0;
-	}
+	//@include media-query ($on-small) {
+	//	margin-top: 0;
+	//}
 	& ul {  
 		@include media-query ($on-small) {
 			margin-left: -.5%;
