@@ -604,31 +604,32 @@ color: $theme-color;
 
 div.content-main {
 	// display: inline;
-	@include media-query ($on-laptop) {
+	//@include media-query ($on-laptop) {
 	//	margin-top: calc(23em - 10vw);
-		& img {
-			max-height: 200px;
-		}
+		//& img {
+		//	max-height: 200px;
+		//}
 		//& li {
-		//	width: 30%    
+		//	width: 
     		//}
-	}
+	//}
 	//@include media-query ($on-small) {
 	//	margin-top: 0;
 	//}
 	& ul {  
 		@include media-query ($on-small) {
 			margin-left: -.5%;
-        	}	
-    	}
-	& li {
-	list-style-type: none;
-	display: inline-block;
-	margin-left: 1.5%;
-	margin-bottom: 1.5%;
-	float: left;
-	overflow: hidden;
-    	}
+		}
+        }	
+    	//}
+	//& li {
+	//list-style-type: none;
+	//display: inline-block;
+	//margin-left: 1.5%;
+	//margin-bottom: 1.5%;
+	//float: left;
+	//overflow: hidden;
+    	//}
 	& a {
 	opacity: 1.0;
     }
