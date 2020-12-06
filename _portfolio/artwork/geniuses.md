@@ -8,6 +8,6 @@ sidebar: A quote by John Lennon that I particularly like. I've created a few ver
 category: artwork
 personal: 
 client:
-published: yes
+published: no
 ---
 ![You're All Geniuses, You're All Beautiful](/img/artwork/geniuses-1200w.jpg)
