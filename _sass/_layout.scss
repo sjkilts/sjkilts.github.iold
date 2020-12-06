@@ -601,10 +601,11 @@ color: $theme-color;
  */
 div.content-main {
 //padding-left: 50px;
-margin-left: 280px;
-padding-top: 2.75em;
-margin-top: -10px;
-overflow: hidden;
+//margin-left: 280px;
+//padding-top: 2.75em;
+//margin-top: -10px;
+//overflow: hidden;
+display: inline;
 @include media-query ($on-laptop) {
 margin: 0 auto;
 display: block;
@@ -612,6 +613,7 @@ margin-top: calc(23em - 10vw);
 overflow: visible;
 & li img {
 max-height: 200px;
+max-width: 200px;
     } 
 img.grid-icon {
 max-width: 35px; 
@@ -625,7 +627,7 @@ padding-top: calc(2em - .5vw);
 }
 & ul {
 @include media-query ($on-laptop) {
-margin-left: -.75%;
+//margin-left: -.75%;
 width: 105%;
         }    
 @include media-query ($on-small) {
