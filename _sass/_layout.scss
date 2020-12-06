@@ -605,9 +605,7 @@ color: $theme-color;
 
 
 div.content-main {
-
 	display: inline;
-
 	@include media-query ($on-laptop) {
 		margin-top: calc(23em - 10vw);
 		& img {
@@ -615,15 +613,16 @@ div.content-main {
 		}
 		& li {
 			width: 30%    
-    	}
-    }
-
+    		}
+	}
+	@include media-query ($on-small) {
+		margin-top: 0;
+	}
 	& ul {  
 		@include media-query ($on-small) {
 			margin-left: -.5%;
-        }
-    }
-
+        	}	
+    	}
 	& li {
 	list-style-type: none;
 	display: inline-block;
@@ -631,8 +630,7 @@ div.content-main {
 	margin-bottom: 1.5%;
 	float: left;
 	overflow: hidden;
-    }
-
+    	}
 	& a {
 	opacity: 1.0;
     }
