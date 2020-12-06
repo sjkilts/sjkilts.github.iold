@@ -58,7 +58,7 @@ $nav-color: rgba(66, 66, 66, 75);
 /** =\ Testing /= ******************************************/
 
 //mobile menu
-button.mobile-nav {
+/* button.mobile-nav {
 display: none;
 @include media-query($on-small) {
 display: inline-block;
@@ -83,7 +83,7 @@ padding-bottom: 0;
 max-width: 20px;
     }
 }
-}
+} 
 
 button.bottom-nav {
 border: none;//.5px solid $highlight-color;
@@ -100,7 +100,7 @@ padding-bottom: 0;
 & img {
 max-width: 15px;
     }
-}
+} */
 
 div.trigger {
 @include media-query($on-small) {
