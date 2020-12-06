@@ -2,7 +2,7 @@
 layout: detail
 title: Falcon
 description: Watercolor
-img: /img/artwork/thumb-falcon.jpg
+img: /img/artwork/Falcon-1200w.jpg
 date: 2013-11-20 
 sidebar:
 category: artwork
