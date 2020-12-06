@@ -611,6 +611,8 @@ margin: 0 auto;
 display: block;
 margin-top: calc(23em - 10vw);
 overflow: visible;
+& img {
+max-width: 98%;
 & li img {
 max-height: 200px;
 max-width: 200px;
