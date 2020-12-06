@@ -607,14 +607,18 @@ div.content-main {
 //overflow: hidden;
 display: inline;
 @include media-query ($on-laptop) {
-margin: 0 auto;
-display: block;
+//margin: 0 auto;
+//display: block;
 margin-top: calc(23em - 10vw);
-overflow: visible;
+//overflow: visible;
 & img {
 max-width: 98%;
-& li img {
 max-height: 200px;
+& li {
+max-height: 200px;
+@include media-query ($on-laptop {
+width: 30%    
+    }
 //max-width: 200px;
     } 
 //img.grid-icon {
@@ -631,7 +635,7 @@ padding-top: calc(2em - .5vw);
 //@include media-query ($on-laptop) {
 //margin-left: -.75%;
 //width: 105%;
-        }    
+//        }    
 @include media-query ($on-small) {
 margin-left: -.5%;
         }
@@ -639,13 +643,13 @@ margin-left: -.5%;
 & li {
 list-style-type: none;
 display: inline-block;
-width: 30%;
-position: relative;
+//width: 30%;
+//position: relative;
 margin-left: 1.5%;
 margin-bottom: 1.5%;
 float: left;
-height: auto;
-display: inline-block;
+//height: auto;
+//display: inline-block;
 overflow: hidden;
 // @include media-query($on-small){
 // width: calc(400px - (#{$horizontal-spacing-unit} * 2));
@@ -656,8 +660,8 @@ overflow: hidden;
 // border: none;
 opacity: 1.0;
     }
-& img {
-max-width: 100%;
+//& img {
+//max-width: 100%;
     }
 & div.thumb {
 // width: 200px;
