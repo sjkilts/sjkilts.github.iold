@@ -602,8 +602,6 @@ color: $theme-color;
  Updated portfolio page styles
  */
 
-
-
 div.content-main {
 	// display: inline;
 	@include media-query ($on-laptop) {
@@ -611,9 +609,9 @@ div.content-main {
 		& img {
 			max-height: 200px;
 		}
-		& li {
-			width: 30%    
-    		}
+		//& li {
+		//	width: 30%    
+    		//}
 	}
 	//@include media-query ($on-small) {
 	//	margin-top: 0;
