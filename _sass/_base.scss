@@ -104,7 +104,9 @@ max-width: 15px;
 
 div.trigger {
 @include media-query($on-small) {
-display: none;
+//display: none;
+& ul {
+line-height: 2.33rem;
     }    
 }
 nav#mobile-nav {
