@@ -20,9 +20,10 @@ gem "github-pages", group: :jekyll_plugins
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-   gem "json","~> 1.0"
+   gem "json", ">= 2.3.0"
    gem 'jekyll-sitemap'
    gem "kramdown", ">= 2.3.0"
+   gem "nokogiri", ">= 1.10.8"
   #  gem "jekyll-paginate-category"
   #  gem "html-proofer"
 end
