@@ -79,11 +79,14 @@ padding-right: .275em;
     }
 }
 .trigger {
+div { 
+display: block;
+	}
 ul {
 line-height: 3.33rem;
 @include media-query($on-palm) {
 line-height: 2.33rem;
-}
+	}
 & li {
 display: inline;
 padding: 0 0.25rem;
