@@ -104,15 +104,11 @@ max-width: 15px;
 
 div.trigger {
 @include media-query($on-small) {
-//display: none;
-& ul {
-line-height: 2.33rem;
-    }    
 }
 nav#mobile-nav {
 display: none;
 @include media-query($on-small) {
-display: none; //inline;
+//display: none; //inline;
 //& ul {
 //margin: 0;
 //padding-bottom: calc(5vw + .5em);
