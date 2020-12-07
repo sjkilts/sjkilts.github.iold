@@ -61,27 +61,7 @@ $nav-color: rgba(66, 66, 66, 75);
 button.mobile-nav {
 display: none;
 @include media-query($on-small) {
-display: none; //inline-block;
-// margin-right: calc(2vw + 1em);
-//border: none; //.5px solid $text-color;
-//border-radius: 2px; 
-//background-color: $white;
-//color: $text-color;
-//opacity: 1.0;
-// -moz-transform: scale(1, -1);
-// -webkit-transform: scale(1, -1);
-// -o-transform: scale(1, -1);
-// -ms-transform: scale(1, -1);
-// transform: scale(1, -1);
-//& a {
-//font-size: 1.5em;
-//display: block;
-//padding: calc(.5vw + .125em);
-//padding-bottom: 0;
-//        }
-//& img {
-//max-width: 20px;
-//    }
+display: none; 
 }
 } 
 
@@ -102,26 +82,6 @@ max-width: 15px;
     }
 }
 
-div.trigger {
-@include media-query($on-small) {
-}
-nav#mobile-nav {
-display: none;
-@include media-query($on-small) {
-//display: none; //inline;
-//& ul {
-//margin: 0;
-//padding-bottom: calc(5vw + .5em);
-//   }
-//& li {
-//display: block;
-//text-align: left;
-//padding: .5em 0;
-//margin-left: calc(2vw + 1em)
-//    }
-}
-}
-// /mobile-menu
 
 
 .header-bar {
