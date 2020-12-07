@@ -58,12 +58,12 @@ $nav-color: rgba(66, 66, 66, 75);
 /** =\ Testing /= ******************************************/
 
 //mobile menu
-button.mobile-nav {
-display: none;
-@include media-query($on-small) {
-display: none; 
-}
-} 
+//button.mobile-nav {
+//display: none;
+//@include media-query($on-small) {
+//display: none; 
+//}
+//} 
 
 button.bottom-nav {
 border: none;//.5px solid $highlight-color;
