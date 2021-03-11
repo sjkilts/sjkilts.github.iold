@@ -5,7 +5,20 @@ layout: default
 {% if paginator.previous_page %}
 {% else %}
 
-  {% portfolio.md %}
+  <ul>
+    {% for project in site.portfolio reversed %}
+        {% if project.index == true %}
+        {% else %}
+        <li class="grid">
+            {% if project.redirect %}
+                {% include project-redirect.html %}
+            {% else %}
+                {% include project-thumbnail.html %}
+            {% endif %}
+        </li>
+        {% endif %}
+    {% endfor %}
+</ul>
 
 {% endif %}
 
