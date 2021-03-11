@@ -5,6 +5,7 @@ layout: sidebar
 {% if paginator.previous_page %}
 {% else %}
 
+<div class="content-main">
   <ul>
     {% for project in site.portfolio reversed %}
         {% if project.index == true %}
@@ -19,6 +20,7 @@ layout: sidebar
         {% endif %}
     {% endfor %}
 </ul>
+</div>
 
 {% endif %}
 
