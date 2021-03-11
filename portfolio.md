@@ -1,6 +1,6 @@
 ---
 layout: sidebar
-title: work
+title: scott kilts | work
 permalink: /work/
 sidebar: A selection of personal and client work
 ---
